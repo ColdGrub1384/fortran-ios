@@ -2,12 +2,15 @@
 
 git submodule update --init --recursive
 
-mkdir -p flang
-cd flang
+mkdir -p build
+mkdir -p build/share
+
+mkdir -p build/share/flang
 if ! [ -f flang.tgz ]; then
   curl https://github.com/flang-compiler/flang/releases/download/flang_20190329/flang-20190329-x86-70.tgz -L -o flang.tgz
 fi
-tar xzf flang.tgz
+cd build/share/flang
+tar xzf ../../../flang.tgz
 
 cd ../
 mkdir -p deb
@@ -25,11 +28,9 @@ if ! [ -f libtinfo.deb ]; then
   curl http://mirrors.kernel.org/ubuntu/pool/main/n/ncurses/libtinfo5_6.0+20160213-1ubuntu1_amd64.deb -L -o libtinfo.deb
 fi
 
-cd ../
+cd ../../../
 
-mkdir -p build
 mkdir -p build/bin
-mkdir -p build/share
 
 yes | cp -rf gfortran build/bin
 yes | cp -rf flang.sh build/bin
