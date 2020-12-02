@@ -1,0 +1,6 @@
+llc
+deb/*
+flang
+*.F*
+build/*
+.DS_Store

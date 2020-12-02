@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+NAME="flang"
+
+docker ps --format '{{.Names}}' | grep "flang" &> /dev/null
+
+if [ $? != 0 ]; then
+    docker run -d --name "$NAME" -v "$DIR/../share:/root/host" -v /Users:/Users -v /var/folders:/var/folders -v /Library:/Library -it ubuntu &> /dev/null
+fi
+
+docker exec -it flang /root/host/setup-container.sh $PWD $@
+
+cp -rf inbox/* $PWD &> /dev/null
+rm -rf inbox/* &> /dev/null
