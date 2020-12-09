@@ -8,6 +8,8 @@
 #if !defined(WINNT) && !defined(USETEMPNAM) /* { */
 #include <errno.h>
 #include <stdio.h>
+#include <time.h>
+#include <sys/types.h>
 
 /* This is really defined in stdio.h.  But we don't use the real stdio.h */
 
