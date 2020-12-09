@@ -8,6 +8,10 @@ import string
 import random
 import shutil
 
+def join_args(args):
+    return ' '.join(shlex.quote(x) for x in args)
+
+
 if "-dumpversion" in sys.argv:
     print("10.2.0")
     sys.exit(0)
@@ -24,7 +28,7 @@ if "-h" in sys_args or "--help" in sys_args:
 if not "-c" in sys_args or not "-arch arm64" in " ".join(sys.argv):
     print("The executed Fortran compiler only supports producing object files for iOS arm64, falling back to gfortran.")
     print("To compile sources for iOS arm64, make sure to add -arch arm64 and -c.")
-    sys.exit(os.system(shlex.join(["/usr/local/bin/gfortran"]+sys_args)))
+    sys.exit(os.system(join_args(["/usr/local/bin/gfortran"]+sys_args)))
 
 if "-bundle" in sys_args:
     args = ["clang"]
@@ -33,7 +37,7 @@ if "-bundle" in sys_args:
             arg = "-shared"
         args.append(arg)
     
-    command = shlex.join(args)
+    command = join_args(args)
     sys.exit(os.system(command))
 
 def convert_to_docker_path(arg):
@@ -94,7 +98,7 @@ cwd = os.getcwd()
 
 arguments.insert(0, os.path.abspath(os.path.join(dir, "flang.sh")))
 arguments.insert(1, "--save-temps")
-flang_command = shlex.join(arguments)
+flang_command = join_args(arguments)
 
 inbox = os.path.join(cwd, ".inbox"+''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(5)))
 
