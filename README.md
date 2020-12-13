@@ -8,7 +8,7 @@ Install [Docker](https://docs.docker.com/docker-for-mac/install/) and open it to
 
 Python 3 is also required.
 
-You can build the project by running `./build.sh` but it will take some time, so you can just [download the release](https://github.com/ColdGrub1384/fortran-ios/releases/download/v1.0/fortran-ios-macos-x86_64.zip).
+You can build the project by running `./build.sh` but it will take some time, so you can just [download the release](https://github.com/ColdGrub1384/fortran-ios/releases/download/v2.0/fortran-ios-macos-x86_64.zip).
 
 ## Usage
 
