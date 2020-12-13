@@ -80,13 +80,13 @@ static __mth_rt_vi_ptrs_t __mth_rt_vi_ptrs_statdefs = {
 };
 
 
-__mth_rt_vi_ptrs_t __mth_rt_vi_ptrs = {
-};
+//__mth_rt_vi_ptrs_t __mth_rt_vi_ptrs = {
+//};
 
-__mth_rt_vi_ptrs_t __mth_rt_vi_ptrs_stat;
-uint64_t __mth_rt_stats[frp_size][func_size][sv_size];
-static  __mth_rt_vi_ptrs_t __mth_rt_vi_ptrs_new;
-uint64_t __mth_rt_stats[frp_size][func_size][sv_size];
+//__mth_rt_vi_ptrs_t __mth_rt_vi_ptrs_stat;
+//uint64_t __mth_rt_stats[frp_size][func_size][sv_size];
+//static  __mth_rt_vi_ptrs_t __mth_rt_vi_ptrs_new;
+//uint64_t __mth_rt_stats[frp_size][func_size][sv_size];
 
 vrs1_t
 MTH_DISPATCH_FUNC(__fs_acos_1)(vrs1_t x)
@@ -7429,3 +7429,11 @@ vrd2_t __gvd_log2(vrd2_t) __attribute__ ((weak, alias ("__fd_log_2")));
 vrs4_t __gvs_pow4(vrs4_t,vrs4_t) __attribute__ ((weak, alias ("__fs_pow_4")));
 vrd2_t __gvd_pow2(vrd2_t,vrd2_t) __attribute__ ((weak, alias ("__fd_pow_2")));
 #endif
+
+vrs4_t __gs_sincos_4(vrs4_t a, vrs4_t b) {
+    return __fs_sincos_4m(a, b);
+}
+
+vrs4_t __gd_sincos_2(vrs4_t a) {
+    return __fd_sincos_2(a);
+}

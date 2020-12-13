@@ -75,7 +75,7 @@
 #endif
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_acos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_acos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -85,7 +85,7 @@ MTH_DISPATCH_FUNC(__fs_acos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_acos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_acos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -95,7 +95,7 @@ MTH_DISPATCH_FUNC(__rs_acos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_acos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_acos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -105,7 +105,7 @@ MTH_DISPATCH_FUNC(__ps_acos_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_acos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_acos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -115,7 +115,7 @@ MTH_DISPATCH_FUNC(__fs_acos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_acos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_acos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -125,7 +125,7 @@ MTH_DISPATCH_FUNC(__rs_acos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_acos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_acos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -135,7 +135,7 @@ MTH_DISPATCH_FUNC(__ps_acos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_acos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_acos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -145,7 +145,7 @@ MTH_DISPATCH_FUNC(__fs_acos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_acos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_acos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -155,7 +155,7 @@ MTH_DISPATCH_FUNC(__rs_acos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_acos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_acos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -165,7 +165,7 @@ MTH_DISPATCH_FUNC(__ps_acos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_acos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_acos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -175,7 +175,7 @@ MTH_DISPATCH_FUNC(__fd_acos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_acos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_acos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -185,7 +185,7 @@ MTH_DISPATCH_FUNC(__rd_acos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_acos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_acos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -195,7 +195,7 @@ MTH_DISPATCH_FUNC(__pd_acos_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_acos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_acos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -205,7 +205,7 @@ MTH_DISPATCH_FUNC(__fd_acos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_acos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_acos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -215,7 +215,7 @@ MTH_DISPATCH_FUNC(__rd_acos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_acos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_acos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -225,7 +225,7 @@ MTH_DISPATCH_FUNC(__pd_acos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_acos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_acos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -235,7 +235,7 @@ MTH_DISPATCH_FUNC(__fd_acos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_acos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_acos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -245,7 +245,7 @@ MTH_DISPATCH_FUNC(__rd_acos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_acos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_acos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -255,7 +255,7 @@ MTH_DISPATCH_FUNC(__pd_acos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_asin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_asin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -265,7 +265,7 @@ MTH_DISPATCH_FUNC(__fs_asin_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_asin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_asin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -275,7 +275,7 @@ MTH_DISPATCH_FUNC(__rs_asin_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_asin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_asin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -285,7 +285,7 @@ MTH_DISPATCH_FUNC(__ps_asin_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_asin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_asin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -295,7 +295,7 @@ MTH_DISPATCH_FUNC(__fs_asin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_asin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_asin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -305,7 +305,7 @@ MTH_DISPATCH_FUNC(__rs_asin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_asin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_asin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -315,7 +315,7 @@ MTH_DISPATCH_FUNC(__ps_asin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_asin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_asin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -325,7 +325,7 @@ MTH_DISPATCH_FUNC(__fs_asin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_asin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_asin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -335,7 +335,7 @@ MTH_DISPATCH_FUNC(__rs_asin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_asin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_asin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -345,7 +345,7 @@ MTH_DISPATCH_FUNC(__ps_asin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_asin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_asin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -355,7 +355,7 @@ MTH_DISPATCH_FUNC(__fd_asin_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_asin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_asin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -365,7 +365,7 @@ MTH_DISPATCH_FUNC(__rd_asin_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_asin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_asin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -375,7 +375,7 @@ MTH_DISPATCH_FUNC(__pd_asin_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_asin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_asin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -385,7 +385,7 @@ MTH_DISPATCH_FUNC(__fd_asin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_asin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_asin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -395,7 +395,7 @@ MTH_DISPATCH_FUNC(__rd_asin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_asin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_asin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -405,7 +405,7 @@ MTH_DISPATCH_FUNC(__pd_asin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_asin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_asin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -415,7 +415,7 @@ MTH_DISPATCH_FUNC(__fd_asin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_asin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_asin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -425,7 +425,7 @@ MTH_DISPATCH_FUNC(__rd_asin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_asin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_asin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -435,7 +435,7 @@ MTH_DISPATCH_FUNC(__pd_asin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_atan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_atan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -445,7 +445,7 @@ MTH_DISPATCH_FUNC(__fs_atan_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_atan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_atan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -455,7 +455,7 @@ MTH_DISPATCH_FUNC(__rs_atan_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_atan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_atan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -465,7 +465,7 @@ MTH_DISPATCH_FUNC(__ps_atan_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_atan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_atan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -475,7 +475,7 @@ MTH_DISPATCH_FUNC(__fs_atan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_atan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_atan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -485,7 +485,7 @@ MTH_DISPATCH_FUNC(__rs_atan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_atan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_atan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -495,7 +495,7 @@ MTH_DISPATCH_FUNC(__ps_atan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_atan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_atan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -505,7 +505,7 @@ MTH_DISPATCH_FUNC(__fs_atan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_atan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_atan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -515,7 +515,7 @@ MTH_DISPATCH_FUNC(__rs_atan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_atan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_atan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -525,7 +525,7 @@ MTH_DISPATCH_FUNC(__ps_atan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_atan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_atan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -535,7 +535,7 @@ MTH_DISPATCH_FUNC(__fd_atan_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_atan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_atan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -545,7 +545,7 @@ MTH_DISPATCH_FUNC(__rd_atan_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_atan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_atan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -555,7 +555,7 @@ MTH_DISPATCH_FUNC(__pd_atan_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_atan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_atan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -565,7 +565,7 @@ MTH_DISPATCH_FUNC(__fd_atan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_atan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_atan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -575,7 +575,7 @@ MTH_DISPATCH_FUNC(__rd_atan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_atan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_atan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -585,7 +585,7 @@ MTH_DISPATCH_FUNC(__pd_atan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_atan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_atan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -595,7 +595,7 @@ MTH_DISPATCH_FUNC(__fd_atan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_atan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_atan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -605,7 +605,7 @@ MTH_DISPATCH_FUNC(__rd_atan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_atan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_atan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -615,7 +615,7 @@ MTH_DISPATCH_FUNC(__pd_atan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_atan2_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__fs_atan2_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -625,7 +625,7 @@ MTH_DISPATCH_FUNC(__fs_atan2_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_atan2_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__rs_atan2_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -635,7 +635,7 @@ MTH_DISPATCH_FUNC(__rs_atan2_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_atan2_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__ps_atan2_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -645,7 +645,7 @@ MTH_DISPATCH_FUNC(__ps_atan2_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_atan2_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__fs_atan2_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -655,7 +655,7 @@ MTH_DISPATCH_FUNC(__fs_atan2_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_atan2_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__rs_atan2_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -665,7 +665,7 @@ MTH_DISPATCH_FUNC(__rs_atan2_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_atan2_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__ps_atan2_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -675,7 +675,7 @@ MTH_DISPATCH_FUNC(__ps_atan2_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -685,7 +685,7 @@ MTH_DISPATCH_FUNC(__fs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -695,7 +695,7 @@ MTH_DISPATCH_FUNC(__rs_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -705,7 +705,7 @@ MTH_DISPATCH_FUNC(__ps_atan2_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_atan2_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__fd_atan2_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -715,7 +715,7 @@ MTH_DISPATCH_FUNC(__fd_atan2_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_atan2_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__rd_atan2_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -725,7 +725,7 @@ MTH_DISPATCH_FUNC(__rd_atan2_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_atan2_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__pd_atan2_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -735,7 +735,7 @@ MTH_DISPATCH_FUNC(__pd_atan2_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_atan2_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__fd_atan2_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -745,7 +745,7 @@ MTH_DISPATCH_FUNC(__fd_atan2_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_atan2_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__rd_atan2_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -755,7 +755,7 @@ MTH_DISPATCH_FUNC(__rd_atan2_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_atan2_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__pd_atan2_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -765,7 +765,7 @@ MTH_DISPATCH_FUNC(__pd_atan2_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -775,7 +775,7 @@ MTH_DISPATCH_FUNC(__fd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -785,7 +785,7 @@ MTH_DISPATCH_FUNC(__rd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -795,7 +795,7 @@ MTH_DISPATCH_FUNC(__pd_atan2_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_cos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_cos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -805,7 +805,7 @@ MTH_DISPATCH_FUNC(__fs_cos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_cos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_cos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -815,7 +815,7 @@ MTH_DISPATCH_FUNC(__rs_cos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_cos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_cos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -825,7 +825,7 @@ MTH_DISPATCH_FUNC(__ps_cos_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_cos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_cos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -835,7 +835,7 @@ MTH_DISPATCH_FUNC(__fs_cos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_cos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_cos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -845,7 +845,7 @@ MTH_DISPATCH_FUNC(__rs_cos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_cos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_cos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -855,7 +855,7 @@ MTH_DISPATCH_FUNC(__ps_cos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_cos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_cos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -865,7 +865,7 @@ MTH_DISPATCH_FUNC(__fs_cos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_cos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_cos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -875,7 +875,7 @@ MTH_DISPATCH_FUNC(__rs_cos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_cos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_cos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -885,7 +885,7 @@ MTH_DISPATCH_FUNC(__ps_cos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_cos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_cos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -895,7 +895,7 @@ MTH_DISPATCH_FUNC(__fd_cos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_cos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_cos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -905,7 +905,7 @@ MTH_DISPATCH_FUNC(__rd_cos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_cos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_cos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -915,7 +915,7 @@ MTH_DISPATCH_FUNC(__pd_cos_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_cos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_cos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -925,7 +925,7 @@ MTH_DISPATCH_FUNC(__fd_cos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_cos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_cos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -935,7 +935,7 @@ MTH_DISPATCH_FUNC(__rd_cos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_cos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_cos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -945,7 +945,7 @@ MTH_DISPATCH_FUNC(__pd_cos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_cos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_cos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -955,7 +955,7 @@ MTH_DISPATCH_FUNC(__fd_cos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_cos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_cos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -965,7 +965,7 @@ MTH_DISPATCH_FUNC(__rd_cos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_cos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_cos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -975,7 +975,7 @@ MTH_DISPATCH_FUNC(__pd_cos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_sin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_sin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -985,7 +985,7 @@ MTH_DISPATCH_FUNC(__fs_sin_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_sin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_sin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -995,7 +995,7 @@ MTH_DISPATCH_FUNC(__rs_sin_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_sin_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_sin_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1005,7 +1005,7 @@ MTH_DISPATCH_FUNC(__ps_sin_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_sin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1015,7 +1015,7 @@ MTH_DISPATCH_FUNC(__fs_sin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_sin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1025,7 +1025,7 @@ MTH_DISPATCH_FUNC(__rs_sin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sin_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_sin_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1035,7 +1035,7 @@ MTH_DISPATCH_FUNC(__ps_sin_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_sin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1045,7 +1045,7 @@ MTH_DISPATCH_FUNC(__fs_sin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_sin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1055,7 +1055,7 @@ MTH_DISPATCH_FUNC(__rs_sin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sin_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_sin_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1065,7 +1065,7 @@ MTH_DISPATCH_FUNC(__ps_sin_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_sin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_sin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1075,7 +1075,7 @@ MTH_DISPATCH_FUNC(__fd_sin_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_sin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_sin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1085,7 +1085,7 @@ MTH_DISPATCH_FUNC(__rd_sin_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_sin_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_sin_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1095,7 +1095,7 @@ MTH_DISPATCH_FUNC(__pd_sin_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_sin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1105,7 +1105,7 @@ MTH_DISPATCH_FUNC(__fd_sin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_sin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1115,7 +1115,7 @@ MTH_DISPATCH_FUNC(__rd_sin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sin_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_sin_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1125,7 +1125,7 @@ MTH_DISPATCH_FUNC(__pd_sin_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_sin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1135,7 +1135,7 @@ MTH_DISPATCH_FUNC(__fd_sin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_sin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1145,7 +1145,7 @@ MTH_DISPATCH_FUNC(__rd_sin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sin_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_sin_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1155,7 +1155,7 @@ MTH_DISPATCH_FUNC(__pd_sin_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_tan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_tan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1165,7 +1165,7 @@ MTH_DISPATCH_FUNC(__fs_tan_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_tan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_tan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1175,7 +1175,7 @@ MTH_DISPATCH_FUNC(__rs_tan_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_tan_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_tan_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1185,7 +1185,7 @@ MTH_DISPATCH_FUNC(__ps_tan_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_tan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_tan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1195,7 +1195,7 @@ MTH_DISPATCH_FUNC(__fs_tan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_tan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_tan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1205,7 +1205,7 @@ MTH_DISPATCH_FUNC(__rs_tan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_tan_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_tan_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1215,7 +1215,7 @@ MTH_DISPATCH_FUNC(__ps_tan_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_tan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_tan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1225,7 +1225,7 @@ MTH_DISPATCH_FUNC(__fs_tan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_tan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_tan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1235,7 +1235,7 @@ MTH_DISPATCH_FUNC(__rs_tan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_tan_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_tan_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1245,7 +1245,7 @@ MTH_DISPATCH_FUNC(__ps_tan_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_tan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_tan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1255,7 +1255,7 @@ MTH_DISPATCH_FUNC(__fd_tan_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_tan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_tan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1265,7 +1265,7 @@ MTH_DISPATCH_FUNC(__rd_tan_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_tan_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_tan_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1275,7 +1275,7 @@ MTH_DISPATCH_FUNC(__pd_tan_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_tan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_tan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1285,7 +1285,7 @@ MTH_DISPATCH_FUNC(__fd_tan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_tan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_tan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1295,7 +1295,7 @@ MTH_DISPATCH_FUNC(__rd_tan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_tan_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_tan_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1305,7 +1305,7 @@ MTH_DISPATCH_FUNC(__pd_tan_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_tan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_tan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1315,7 +1315,7 @@ MTH_DISPATCH_FUNC(__fd_tan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_tan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_tan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1325,7 +1325,7 @@ MTH_DISPATCH_FUNC(__rd_tan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_tan_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_tan_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1335,7 +1335,7 @@ MTH_DISPATCH_FUNC(__pd_tan_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_cosh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_cosh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1345,7 +1345,7 @@ MTH_DISPATCH_FUNC(__fs_cosh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_cosh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_cosh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1355,7 +1355,7 @@ MTH_DISPATCH_FUNC(__rs_cosh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_cosh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_cosh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1365,7 +1365,7 @@ MTH_DISPATCH_FUNC(__ps_cosh_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_cosh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_cosh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1375,7 +1375,7 @@ MTH_DISPATCH_FUNC(__fs_cosh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_cosh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_cosh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1385,7 +1385,7 @@ MTH_DISPATCH_FUNC(__rs_cosh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_cosh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_cosh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1395,7 +1395,7 @@ MTH_DISPATCH_FUNC(__ps_cosh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_cosh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_cosh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1405,7 +1405,7 @@ MTH_DISPATCH_FUNC(__fs_cosh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_cosh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_cosh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1415,7 +1415,7 @@ MTH_DISPATCH_FUNC(__rs_cosh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_cosh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_cosh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1425,7 +1425,7 @@ MTH_DISPATCH_FUNC(__ps_cosh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_cosh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_cosh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1435,7 +1435,7 @@ MTH_DISPATCH_FUNC(__fd_cosh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_cosh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_cosh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1445,7 +1445,7 @@ MTH_DISPATCH_FUNC(__rd_cosh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_cosh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_cosh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1455,7 +1455,7 @@ MTH_DISPATCH_FUNC(__pd_cosh_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_cosh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_cosh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1465,7 +1465,7 @@ MTH_DISPATCH_FUNC(__fd_cosh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_cosh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_cosh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1475,7 +1475,7 @@ MTH_DISPATCH_FUNC(__rd_cosh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_cosh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_cosh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1485,7 +1485,7 @@ MTH_DISPATCH_FUNC(__pd_cosh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_cosh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_cosh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1495,7 +1495,7 @@ MTH_DISPATCH_FUNC(__fd_cosh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_cosh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_cosh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1505,7 +1505,7 @@ MTH_DISPATCH_FUNC(__rd_cosh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_cosh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_cosh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1515,7 +1515,7 @@ MTH_DISPATCH_FUNC(__pd_cosh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_sinh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_sinh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1525,7 +1525,7 @@ MTH_DISPATCH_FUNC(__fs_sinh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_sinh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_sinh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1535,7 +1535,7 @@ MTH_DISPATCH_FUNC(__rs_sinh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_sinh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_sinh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1545,7 +1545,7 @@ MTH_DISPATCH_FUNC(__ps_sinh_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sinh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_sinh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1555,7 +1555,7 @@ MTH_DISPATCH_FUNC(__fs_sinh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sinh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_sinh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1565,7 +1565,7 @@ MTH_DISPATCH_FUNC(__rs_sinh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sinh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_sinh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1575,7 +1575,7 @@ MTH_DISPATCH_FUNC(__ps_sinh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sinh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_sinh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1585,7 +1585,7 @@ MTH_DISPATCH_FUNC(__fs_sinh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sinh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_sinh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1595,7 +1595,7 @@ MTH_DISPATCH_FUNC(__rs_sinh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sinh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_sinh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1605,7 +1605,7 @@ MTH_DISPATCH_FUNC(__ps_sinh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_sinh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_sinh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1615,7 +1615,7 @@ MTH_DISPATCH_FUNC(__fd_sinh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_sinh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_sinh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1625,7 +1625,7 @@ MTH_DISPATCH_FUNC(__rd_sinh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_sinh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_sinh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1635,7 +1635,7 @@ MTH_DISPATCH_FUNC(__pd_sinh_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sinh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_sinh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1645,7 +1645,7 @@ MTH_DISPATCH_FUNC(__fd_sinh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sinh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_sinh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1655,7 +1655,7 @@ MTH_DISPATCH_FUNC(__rd_sinh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sinh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_sinh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1665,7 +1665,7 @@ MTH_DISPATCH_FUNC(__pd_sinh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sinh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_sinh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1675,7 +1675,7 @@ MTH_DISPATCH_FUNC(__fd_sinh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sinh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_sinh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1685,7 +1685,7 @@ MTH_DISPATCH_FUNC(__rd_sinh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sinh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_sinh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1695,7 +1695,7 @@ MTH_DISPATCH_FUNC(__pd_sinh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_tanh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_tanh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1705,7 +1705,7 @@ MTH_DISPATCH_FUNC(__fs_tanh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_tanh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_tanh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1715,7 +1715,7 @@ MTH_DISPATCH_FUNC(__rs_tanh_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_tanh_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_tanh_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1725,7 +1725,7 @@ MTH_DISPATCH_FUNC(__ps_tanh_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_tanh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_tanh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1735,7 +1735,7 @@ MTH_DISPATCH_FUNC(__fs_tanh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_tanh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_tanh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1745,7 +1745,7 @@ MTH_DISPATCH_FUNC(__rs_tanh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_tanh_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_tanh_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1755,7 +1755,7 @@ MTH_DISPATCH_FUNC(__ps_tanh_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_tanh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_tanh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1765,7 +1765,7 @@ MTH_DISPATCH_FUNC(__fs_tanh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_tanh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_tanh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1775,7 +1775,7 @@ MTH_DISPATCH_FUNC(__rs_tanh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_tanh_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_tanh_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1785,7 +1785,7 @@ MTH_DISPATCH_FUNC(__ps_tanh_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_tanh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_tanh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1795,7 +1795,7 @@ MTH_DISPATCH_FUNC(__fd_tanh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_tanh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_tanh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1805,7 +1805,7 @@ MTH_DISPATCH_FUNC(__rd_tanh_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_tanh_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_tanh_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1815,7 +1815,7 @@ MTH_DISPATCH_FUNC(__pd_tanh_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_tanh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_tanh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1825,7 +1825,7 @@ MTH_DISPATCH_FUNC(__fd_tanh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_tanh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_tanh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1835,7 +1835,7 @@ MTH_DISPATCH_FUNC(__rd_tanh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_tanh_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_tanh_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -1845,7 +1845,7 @@ MTH_DISPATCH_FUNC(__pd_tanh_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_tanh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_tanh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1855,7 +1855,7 @@ MTH_DISPATCH_FUNC(__fd_tanh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_tanh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_tanh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1865,7 +1865,7 @@ MTH_DISPATCH_FUNC(__rd_tanh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_tanh_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_tanh_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -1875,7 +1875,7 @@ MTH_DISPATCH_FUNC(__pd_tanh_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_exp_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_exp_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1890,7 +1890,7 @@ MTH_DISPATCH_FUNC(__fs_exp_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_exp_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_exp_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1905,7 +1905,7 @@ MTH_DISPATCH_FUNC(__rs_exp_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_exp_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_exp_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -1920,7 +1920,7 @@ MTH_DISPATCH_FUNC(__ps_exp_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_exp_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_exp_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1930,7 +1930,7 @@ MTH_DISPATCH_FUNC(__fs_exp_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_exp_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_exp_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1940,7 +1940,7 @@ MTH_DISPATCH_FUNC(__rs_exp_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_exp_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_exp_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -1950,7 +1950,7 @@ MTH_DISPATCH_FUNC(__ps_exp_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_exp_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_exp_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1960,7 +1960,7 @@ MTH_DISPATCH_FUNC(__fs_exp_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_exp_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_exp_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1970,7 +1970,7 @@ MTH_DISPATCH_FUNC(__rs_exp_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_exp_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_exp_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -1980,7 +1980,7 @@ MTH_DISPATCH_FUNC(__ps_exp_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_exp_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_exp_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -1995,7 +1995,7 @@ MTH_DISPATCH_FUNC(__fd_exp_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_exp_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_exp_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2010,7 +2010,7 @@ MTH_DISPATCH_FUNC(__rd_exp_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_exp_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_exp_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2025,7 +2025,7 @@ MTH_DISPATCH_FUNC(__pd_exp_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_exp_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_exp_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2035,7 +2035,7 @@ MTH_DISPATCH_FUNC(__fd_exp_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_exp_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_exp_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2045,7 +2045,7 @@ MTH_DISPATCH_FUNC(__rd_exp_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_exp_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_exp_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2055,7 +2055,7 @@ MTH_DISPATCH_FUNC(__pd_exp_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_exp_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_exp_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2065,7 +2065,7 @@ MTH_DISPATCH_FUNC(__fd_exp_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_exp_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_exp_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2075,7 +2075,7 @@ MTH_DISPATCH_FUNC(__rd_exp_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_exp_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_exp_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2085,7 +2085,7 @@ MTH_DISPATCH_FUNC(__pd_exp_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_log_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_log_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2095,7 +2095,7 @@ MTH_DISPATCH_FUNC(__fs_log_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_log_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_log_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2105,7 +2105,7 @@ MTH_DISPATCH_FUNC(__rs_log_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_log_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_log_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2115,7 +2115,7 @@ MTH_DISPATCH_FUNC(__ps_log_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_log_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_log_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2125,7 +2125,7 @@ MTH_DISPATCH_FUNC(__fs_log_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_log_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_log_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2135,7 +2135,7 @@ MTH_DISPATCH_FUNC(__rs_log_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_log_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_log_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2145,7 +2145,7 @@ MTH_DISPATCH_FUNC(__ps_log_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_log_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_log_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2155,7 +2155,7 @@ MTH_DISPATCH_FUNC(__fs_log_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_log_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_log_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2165,7 +2165,7 @@ MTH_DISPATCH_FUNC(__rs_log_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_log_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_log_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2175,7 +2175,7 @@ MTH_DISPATCH_FUNC(__ps_log_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_log_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_log_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2185,7 +2185,7 @@ MTH_DISPATCH_FUNC(__fd_log_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_log_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_log_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2195,7 +2195,7 @@ MTH_DISPATCH_FUNC(__rd_log_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_log_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_log_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2205,7 +2205,7 @@ MTH_DISPATCH_FUNC(__pd_log_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_log_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_log_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2215,7 +2215,7 @@ MTH_DISPATCH_FUNC(__fd_log_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_log_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_log_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2225,7 +2225,7 @@ MTH_DISPATCH_FUNC(__rd_log_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_log_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_log_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2235,7 +2235,7 @@ MTH_DISPATCH_FUNC(__pd_log_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_log_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_log_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2245,7 +2245,7 @@ MTH_DISPATCH_FUNC(__fd_log_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_log_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_log_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2255,7 +2255,7 @@ MTH_DISPATCH_FUNC(__rd_log_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_log_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_log_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2265,7 +2265,7 @@ MTH_DISPATCH_FUNC(__pd_log_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_log10_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_log10_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2275,7 +2275,7 @@ MTH_DISPATCH_FUNC(__fs_log10_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_log10_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_log10_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2285,7 +2285,7 @@ MTH_DISPATCH_FUNC(__rs_log10_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_log10_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_log10_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -2295,7 +2295,7 @@ MTH_DISPATCH_FUNC(__ps_log10_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_log10_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_log10_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2305,7 +2305,7 @@ MTH_DISPATCH_FUNC(__fs_log10_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_log10_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_log10_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2315,7 +2315,7 @@ MTH_DISPATCH_FUNC(__rs_log10_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_log10_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_log10_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -2325,7 +2325,7 @@ MTH_DISPATCH_FUNC(__ps_log10_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_log10_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_log10_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2335,7 +2335,7 @@ MTH_DISPATCH_FUNC(__fs_log10_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_log10_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_log10_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2345,7 +2345,7 @@ MTH_DISPATCH_FUNC(__rs_log10_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_log10_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_log10_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2355,7 +2355,7 @@ MTH_DISPATCH_FUNC(__ps_log10_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_log10_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_log10_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2365,7 +2365,7 @@ MTH_DISPATCH_FUNC(__fd_log10_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_log10_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_log10_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2375,7 +2375,7 @@ MTH_DISPATCH_FUNC(__rd_log10_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_log10_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_log10_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -2385,7 +2385,7 @@ MTH_DISPATCH_FUNC(__pd_log10_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_log10_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_log10_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2395,7 +2395,7 @@ MTH_DISPATCH_FUNC(__fd_log10_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_log10_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_log10_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2405,7 +2405,7 @@ MTH_DISPATCH_FUNC(__rd_log10_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_log10_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_log10_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -2415,7 +2415,7 @@ MTH_DISPATCH_FUNC(__pd_log10_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_log10_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_log10_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2425,7 +2425,7 @@ MTH_DISPATCH_FUNC(__fd_log10_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_log10_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_log10_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2435,7 +2435,7 @@ MTH_DISPATCH_FUNC(__rd_log10_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_log10_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_log10_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2445,7 +2445,7 @@ MTH_DISPATCH_FUNC(__pd_log10_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_mod_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__fs_mod_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2455,7 +2455,7 @@ MTH_DISPATCH_FUNC(__fs_mod_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_mod_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__rs_mod_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2465,7 +2465,7 @@ MTH_DISPATCH_FUNC(__rs_mod_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_mod_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__ps_mod_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2475,7 +2475,7 @@ MTH_DISPATCH_FUNC(__ps_mod_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_mod_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__fs_mod_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2485,7 +2485,7 @@ MTH_DISPATCH_FUNC(__fs_mod_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_mod_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__rs_mod_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2495,7 +2495,7 @@ MTH_DISPATCH_FUNC(__rs_mod_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_mod_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__ps_mod_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2505,7 +2505,7 @@ MTH_DISPATCH_FUNC(__ps_mod_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2515,7 +2515,7 @@ MTH_DISPATCH_FUNC(__fs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2525,7 +2525,7 @@ MTH_DISPATCH_FUNC(__rs_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2535,7 +2535,7 @@ MTH_DISPATCH_FUNC(__ps_mod_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_mod_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__fd_mod_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2545,7 +2545,7 @@ MTH_DISPATCH_FUNC(__fd_mod_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_mod_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__rd_mod_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2555,7 +2555,7 @@ MTH_DISPATCH_FUNC(__rd_mod_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_mod_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__pd_mod_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2565,7 +2565,7 @@ MTH_DISPATCH_FUNC(__pd_mod_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_mod_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__fd_mod_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2575,7 +2575,7 @@ MTH_DISPATCH_FUNC(__fd_mod_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_mod_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__rd_mod_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2585,7 +2585,7 @@ MTH_DISPATCH_FUNC(__rd_mod_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_mod_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__pd_mod_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2595,7 +2595,7 @@ MTH_DISPATCH_FUNC(__pd_mod_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2605,7 +2605,7 @@ MTH_DISPATCH_FUNC(__fd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2615,7 +2615,7 @@ MTH_DISPATCH_FUNC(__rd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2625,7 +2625,7 @@ MTH_DISPATCH_FUNC(__pd_mod_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_pow_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__fs_pow_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2635,7 +2635,7 @@ MTH_DISPATCH_FUNC(__fs_pow_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_pow_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__rs_pow_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2645,7 +2645,7 @@ MTH_DISPATCH_FUNC(__rs_pow_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_pow_1)(vrs1_t x, vrs1_t y)
+MTH_DISPATCH_FUNC_D(__ps_pow_1)(vrs1_t x, vrs1_t y)
 {
   vrs1_t (*fptr)(vrs1_t, vrs1_t);
   _MTH_I_INIT();
@@ -2655,7 +2655,7 @@ MTH_DISPATCH_FUNC(__ps_pow_1)(vrs1_t x, vrs1_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_pow_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__fs_pow_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2665,7 +2665,7 @@ MTH_DISPATCH_FUNC(__fs_pow_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_pow_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__rs_pow_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2675,7 +2675,7 @@ MTH_DISPATCH_FUNC(__rs_pow_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_pow_4)(vrs4_t x, vrs4_t y)
+MTH_DISPATCH_FUNC_D(__ps_pow_4)(vrs4_t x, vrs4_t y)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t);
   _MTH_I_INIT();
@@ -2685,7 +2685,7 @@ MTH_DISPATCH_FUNC(__ps_pow_4)(vrs4_t x, vrs4_t y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2695,7 +2695,7 @@ MTH_DISPATCH_FUNC(__fs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2705,7 +2705,7 @@ MTH_DISPATCH_FUNC(__rs_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2715,7 +2715,7 @@ MTH_DISPATCH_FUNC(__ps_pow_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_pow_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__fd_pow_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2725,7 +2725,7 @@ MTH_DISPATCH_FUNC(__fd_pow_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_pow_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__rd_pow_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2735,7 +2735,7 @@ MTH_DISPATCH_FUNC(__rd_pow_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_pow_1)(vrd1_t x, vrd1_t y)
+MTH_DISPATCH_FUNC_D(__pd_pow_1)(vrd1_t x, vrd1_t y)
 {
   vrd1_t (*fptr)(vrd1_t, vrd1_t);
   _MTH_I_INIT();
@@ -2745,7 +2745,7 @@ MTH_DISPATCH_FUNC(__pd_pow_1)(vrd1_t x, vrd1_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_pow_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__fd_pow_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2755,7 +2755,7 @@ MTH_DISPATCH_FUNC(__fd_pow_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_pow_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__rd_pow_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2765,7 +2765,7 @@ MTH_DISPATCH_FUNC(__rd_pow_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_pow_2)(vrd2_t x, vrd2_t y)
+MTH_DISPATCH_FUNC_D(__pd_pow_2)(vrd2_t x, vrd2_t y)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t);
   _MTH_I_INIT();
@@ -2775,7 +2775,7 @@ MTH_DISPATCH_FUNC(__pd_pow_2)(vrd2_t x, vrd2_t y)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2785,7 +2785,7 @@ MTH_DISPATCH_FUNC(__fd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2795,7 +2795,7 @@ MTH_DISPATCH_FUNC(__rd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -2805,7 +2805,7 @@ MTH_DISPATCH_FUNC(__pd_pow_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_powi1_1)(vrs1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powi1_1)(vrs1_t x, int32_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int32_t);
   _MTH_I_INIT();
@@ -2815,7 +2815,7 @@ MTH_DISPATCH_FUNC(__fs_powi1_1)(vrs1_t x, int32_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_powi1_1)(vrs1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powi1_1)(vrs1_t x, int32_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int32_t);
   _MTH_I_INIT();
@@ -2825,7 +2825,7 @@ MTH_DISPATCH_FUNC(__rs_powi1_1)(vrs1_t x, int32_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_powi1_1)(vrs1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powi1_1)(vrs1_t x, int32_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int32_t);
   _MTH_I_INIT();
@@ -2835,7 +2835,7 @@ MTH_DISPATCH_FUNC(__ps_powi1_1)(vrs1_t x, int32_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powi1_4)(vrs4_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powi1_4)(vrs4_t x, int32_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t);
   _MTH_I_INIT();
@@ -2845,7 +2845,7 @@ MTH_DISPATCH_FUNC(__fs_powi1_4)(vrs4_t x, int32_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powi1_4)(vrs4_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powi1_4)(vrs4_t x, int32_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t);
   _MTH_I_INIT();
@@ -2855,7 +2855,7 @@ MTH_DISPATCH_FUNC(__rs_powi1_4)(vrs4_t x, int32_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powi1_4)(vrs4_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powi1_4)(vrs4_t x, int32_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t);
   _MTH_I_INIT();
@@ -2865,7 +2865,7 @@ MTH_DISPATCH_FUNC(__ps_powi1_4)(vrs4_t x, int32_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__fs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t, vis4_t);
   _MTH_I_INIT();
@@ -2875,7 +2875,7 @@ MTH_DISPATCH_FUNC(__fs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__rs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t, vis4_t);
   _MTH_I_INIT();
@@ -2885,7 +2885,7 @@ MTH_DISPATCH_FUNC(__rs_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__ps_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, int32_t, vis4_t);
   _MTH_I_INIT();
@@ -2895,7 +2895,7 @@ MTH_DISPATCH_FUNC(__ps_powi1_4m)(vrs4_t x, int32_t iy, vis4_t mask)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_powi_1)(vrs1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powi_1)(vrs1_t x, vis1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vis1_t);
   _MTH_I_INIT();
@@ -2905,7 +2905,7 @@ MTH_DISPATCH_FUNC(__fs_powi_1)(vrs1_t x, vis1_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_powi_1)(vrs1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powi_1)(vrs1_t x, vis1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vis1_t);
   _MTH_I_INIT();
@@ -2915,7 +2915,7 @@ MTH_DISPATCH_FUNC(__rs_powi_1)(vrs1_t x, vis1_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_powi_1)(vrs1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powi_1)(vrs1_t x, vis1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vis1_t);
   _MTH_I_INIT();
@@ -2925,7 +2925,7 @@ MTH_DISPATCH_FUNC(__ps_powi_1)(vrs1_t x, vis1_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powi_4)(vrs4_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powi_4)(vrs4_t x, vis4_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2935,7 +2935,7 @@ MTH_DISPATCH_FUNC(__fs_powi_4)(vrs4_t x, vis4_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powi_4)(vrs4_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powi_4)(vrs4_t x, vis4_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2945,7 +2945,7 @@ MTH_DISPATCH_FUNC(__rs_powi_4)(vrs4_t x, vis4_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powi_4)(vrs4_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powi_4)(vrs4_t x, vis4_t iy)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -2955,7 +2955,7 @@ MTH_DISPATCH_FUNC(__ps_powi_4)(vrs4_t x, vis4_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__fs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t, vis4_t);
   _MTH_I_INIT();
@@ -2965,7 +2965,7 @@ MTH_DISPATCH_FUNC(__fs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__rs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t, vis4_t);
   _MTH_I_INIT();
@@ -2975,7 +2975,7 @@ MTH_DISPATCH_FUNC(__rs_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__ps_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t, vis4_t);
   _MTH_I_INIT();
@@ -2985,7 +2985,7 @@ MTH_DISPATCH_FUNC(__ps_powi_4m)(vrs4_t x, vis4_t iy, vis4_t mask)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_powk1_1)(vrs1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powk1_1)(vrs1_t x, int64_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int64_t);
   _MTH_I_INIT();
@@ -2995,7 +2995,7 @@ MTH_DISPATCH_FUNC(__fs_powk1_1)(vrs1_t x, int64_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_powk1_1)(vrs1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powk1_1)(vrs1_t x, int64_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int64_t);
   _MTH_I_INIT();
@@ -3005,7 +3005,7 @@ MTH_DISPATCH_FUNC(__rs_powk1_1)(vrs1_t x, int64_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_powk1_1)(vrs1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powk1_1)(vrs1_t x, int64_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, int64_t);
   _MTH_I_INIT();
@@ -3015,7 +3015,7 @@ MTH_DISPATCH_FUNC(__ps_powk1_1)(vrs1_t x, int64_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powk1_4)(vrs4_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__fs_powk1_4)(vrs4_t x, long long iy)
 {
   vrs4_t (*fptr)(vrs4_t, long long);
   _MTH_I_INIT();
@@ -3025,7 +3025,7 @@ MTH_DISPATCH_FUNC(__fs_powk1_4)(vrs4_t x, long long iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powk1_4)(vrs4_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__rs_powk1_4)(vrs4_t x, long long iy)
 {
   vrs4_t (*fptr)(vrs4_t, long long);
   _MTH_I_INIT();
@@ -3035,7 +3035,7 @@ MTH_DISPATCH_FUNC(__rs_powk1_4)(vrs4_t x, long long iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powk1_4)(vrs4_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__ps_powk1_4)(vrs4_t x, long long iy)
 {
   vrs4_t (*fptr)(vrs4_t, long long);
   _MTH_I_INIT();
@@ -3045,7 +3045,7 @@ MTH_DISPATCH_FUNC(__ps_powk1_4)(vrs4_t x, long long iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__fs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, long long, vis4_t);
   _MTH_I_INIT();
@@ -3055,7 +3055,7 @@ MTH_DISPATCH_FUNC(__fs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__rs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, long long, vis4_t);
   _MTH_I_INIT();
@@ -3065,7 +3065,7 @@ MTH_DISPATCH_FUNC(__rs_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__ps_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, long long, vis4_t);
   _MTH_I_INIT();
@@ -3075,7 +3075,7 @@ MTH_DISPATCH_FUNC(__ps_powk1_4m)(vrs4_t x, long long iy, vis4_t mask)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_powk_1)(vrs1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__fs_powk_1)(vrs1_t x, vid1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vid1_t);
   _MTH_I_INIT();
@@ -3085,7 +3085,7 @@ MTH_DISPATCH_FUNC(__fs_powk_1)(vrs1_t x, vid1_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_powk_1)(vrs1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__rs_powk_1)(vrs1_t x, vid1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vid1_t);
   _MTH_I_INIT();
@@ -3095,7 +3095,7 @@ MTH_DISPATCH_FUNC(__rs_powk_1)(vrs1_t x, vid1_t iy)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_powk_1)(vrs1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__ps_powk_1)(vrs1_t x, vid1_t iy)
 {
   vrs1_t (*fptr)(vrs1_t, vid1_t);
   _MTH_I_INIT();
@@ -3105,7 +3105,7 @@ MTH_DISPATCH_FUNC(__ps_powk_1)(vrs1_t x, vid1_t iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
+MTH_DISPATCH_FUNC_D(__fs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3115,7 +3115,7 @@ MTH_DISPATCH_FUNC(__fs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
+MTH_DISPATCH_FUNC_D(__rs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3125,7 +3125,7 @@ MTH_DISPATCH_FUNC(__rs_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
+MTH_DISPATCH_FUNC_D(__ps_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3135,7 +3135,7 @@ MTH_DISPATCH_FUNC(__ps_powk_4)(vrs4_t x, vid2_t iyu, vid2_t iyl)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__fs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t, vis4_t);
   _MTH_I_INIT();
@@ -3145,7 +3145,7 @@ MTH_DISPATCH_FUNC(__fs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__rs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t, vis4_t);
   _MTH_I_INIT();
@@ -3155,7 +3155,7 @@ MTH_DISPATCH_FUNC(__rs_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
+MTH_DISPATCH_FUNC_D(__ps_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 {
   vrs4_t (*fptr)(vrs4_t, vid2_t, vid2_t, vis4_t);
   _MTH_I_INIT();
@@ -3165,7 +3165,7 @@ MTH_DISPATCH_FUNC(__ps_powk_4m)(vrs4_t x, vid2_t iyu, vid2_t iyl, vis4_t mask)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_powi1_1)(vrd1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powi1_1)(vrd1_t x, int32_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int32_t);
   _MTH_I_INIT();
@@ -3175,7 +3175,7 @@ MTH_DISPATCH_FUNC(__fd_powi1_1)(vrd1_t x, int32_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_powi1_1)(vrd1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powi1_1)(vrd1_t x, int32_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int32_t);
   _MTH_I_INIT();
@@ -3185,7 +3185,7 @@ MTH_DISPATCH_FUNC(__rd_powi1_1)(vrd1_t x, int32_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_powi1_1)(vrd1_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powi1_1)(vrd1_t x, int32_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int32_t);
   _MTH_I_INIT();
@@ -3195,7 +3195,7 @@ MTH_DISPATCH_FUNC(__pd_powi1_1)(vrd1_t x, int32_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powi1_2)(vrd2_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powi1_2)(vrd2_t x, int32_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t);
   _MTH_I_INIT();
@@ -3205,7 +3205,7 @@ MTH_DISPATCH_FUNC(__fd_powi1_2)(vrd2_t x, int32_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powi1_2)(vrd2_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powi1_2)(vrd2_t x, int32_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t);
   _MTH_I_INIT();
@@ -3215,7 +3215,7 @@ MTH_DISPATCH_FUNC(__rd_powi1_2)(vrd2_t x, int32_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powi1_2)(vrd2_t x, int32_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powi1_2)(vrd2_t x, int32_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t);
   _MTH_I_INIT();
@@ -3225,7 +3225,7 @@ MTH_DISPATCH_FUNC(__pd_powi1_2)(vrd2_t x, int32_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__fd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t, vid2_t);
   _MTH_I_INIT();
@@ -3235,7 +3235,7 @@ MTH_DISPATCH_FUNC(__fd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__rd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t, vid2_t);
   _MTH_I_INIT();
@@ -3245,7 +3245,7 @@ MTH_DISPATCH_FUNC(__rd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__pd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, int32_t, vid2_t);
   _MTH_I_INIT();
@@ -3255,7 +3255,7 @@ MTH_DISPATCH_FUNC(__pd_powi1_2m)(vrd2_t x, int32_t iy, vid2_t mask)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_powi_1)(vrd1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powi_1)(vrd1_t x, vis1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vis1_t);
   _MTH_I_INIT();
@@ -3265,7 +3265,7 @@ MTH_DISPATCH_FUNC(__fd_powi_1)(vrd1_t x, vis1_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_powi_1)(vrd1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powi_1)(vrd1_t x, vis1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vis1_t);
   _MTH_I_INIT();
@@ -3275,7 +3275,7 @@ MTH_DISPATCH_FUNC(__rd_powi_1)(vrd1_t x, vis1_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_powi_1)(vrd1_t x, vis1_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powi_1)(vrd1_t x, vis1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vis1_t);
   _MTH_I_INIT();
@@ -3294,7 +3294,7 @@ MTH_DISPATCH_FUNC(__pd_powi_1)(vrd1_t x, vis1_t iy)
  */
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powi_2)(vrd2_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powi_2)(vrd2_t x, vis4_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t);
   _MTH_I_INIT();
@@ -3304,7 +3304,7 @@ MTH_DISPATCH_FUNC(__fd_powi_2)(vrd2_t x, vis4_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powi_2)(vrd2_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powi_2)(vrd2_t x, vis4_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t);
   _MTH_I_INIT();
@@ -3314,7 +3314,7 @@ MTH_DISPATCH_FUNC(__rd_powi_2)(vrd2_t x, vis4_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powi_2)(vrd2_t x, vis4_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powi_2)(vrd2_t x, vis4_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t);
   _MTH_I_INIT();
@@ -3324,7 +3324,7 @@ MTH_DISPATCH_FUNC(__pd_powi_2)(vrd2_t x, vis4_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__fd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t, vid2_t);
   _MTH_I_INIT();
@@ -3334,7 +3334,7 @@ MTH_DISPATCH_FUNC(__fd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__rd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t, vid2_t);
   _MTH_I_INIT();
@@ -3344,7 +3344,7 @@ MTH_DISPATCH_FUNC(__rd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__pd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vis4_t, vid2_t);
   _MTH_I_INIT();
@@ -3354,7 +3354,7 @@ MTH_DISPATCH_FUNC(__pd_powi_2m)(vrd2_t x, vis4_t iy, vid2_t mask)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_powk1_1)(vrd1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powk1_1)(vrd1_t x, int64_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int64_t);
   _MTH_I_INIT();
@@ -3364,7 +3364,7 @@ MTH_DISPATCH_FUNC(__fd_powk1_1)(vrd1_t x, int64_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_powk1_1)(vrd1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powk1_1)(vrd1_t x, int64_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int64_t);
   _MTH_I_INIT();
@@ -3374,7 +3374,7 @@ MTH_DISPATCH_FUNC(__rd_powk1_1)(vrd1_t x, int64_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_powk1_1)(vrd1_t x, int64_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powk1_1)(vrd1_t x, int64_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, int64_t);
   _MTH_I_INIT();
@@ -3384,7 +3384,7 @@ MTH_DISPATCH_FUNC(__pd_powk1_1)(vrd1_t x, int64_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powk1_2)(vrd2_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__fd_powk1_2)(vrd2_t x, long long iy)
 {
   vrd2_t (*fptr)(vrd2_t, long long);
   _MTH_I_INIT();
@@ -3394,7 +3394,7 @@ MTH_DISPATCH_FUNC(__fd_powk1_2)(vrd2_t x, long long iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powk1_2)(vrd2_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__rd_powk1_2)(vrd2_t x, long long iy)
 {
   vrd2_t (*fptr)(vrd2_t, long long);
   _MTH_I_INIT();
@@ -3404,7 +3404,7 @@ MTH_DISPATCH_FUNC(__rd_powk1_2)(vrd2_t x, long long iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powk1_2)(vrd2_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__pd_powk1_2)(vrd2_t x, long long iy)
 {
   vrd2_t (*fptr)(vrd2_t, long long);
   _MTH_I_INIT();
@@ -3414,7 +3414,7 @@ MTH_DISPATCH_FUNC(__pd_powk1_2)(vrd2_t x, long long iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__fd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, long long, vid2_t);
   _MTH_I_INIT();
@@ -3424,7 +3424,7 @@ MTH_DISPATCH_FUNC(__fd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__rd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, long long, vid2_t);
   _MTH_I_INIT();
@@ -3434,7 +3434,7 @@ MTH_DISPATCH_FUNC(__rd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__pd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, long long, vid2_t);
   _MTH_I_INIT();
@@ -3444,7 +3444,7 @@ MTH_DISPATCH_FUNC(__pd_powk1_2m)(vrd2_t x, long long iy, vid2_t mask)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_powk_1)(vrd1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powk_1)(vrd1_t x, vid1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vid1_t);
   _MTH_I_INIT();
@@ -3454,7 +3454,7 @@ MTH_DISPATCH_FUNC(__fd_powk_1)(vrd1_t x, vid1_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_powk_1)(vrd1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powk_1)(vrd1_t x, vid1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vid1_t);
   _MTH_I_INIT();
@@ -3464,7 +3464,7 @@ MTH_DISPATCH_FUNC(__rd_powk_1)(vrd1_t x, vid1_t iy)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_powk_1)(vrd1_t x, vid1_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powk_1)(vrd1_t x, vid1_t iy)
 {
   vrd1_t (*fptr)(vrd1_t, vid1_t);
   _MTH_I_INIT();
@@ -3474,7 +3474,7 @@ MTH_DISPATCH_FUNC(__pd_powk_1)(vrd1_t x, vid1_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powk_2)(vrd2_t x, vid2_t iy)
+MTH_DISPATCH_FUNC_D(__fd_powk_2)(vrd2_t x, vid2_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3484,7 +3484,7 @@ MTH_DISPATCH_FUNC(__fd_powk_2)(vrd2_t x, vid2_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powk_2)(vrd2_t x, vid2_t iy)
+MTH_DISPATCH_FUNC_D(__rd_powk_2)(vrd2_t x, vid2_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3494,7 +3494,7 @@ MTH_DISPATCH_FUNC(__rd_powk_2)(vrd2_t x, vid2_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powk_2)(vrd2_t x, vid2_t iy)
+MTH_DISPATCH_FUNC_D(__pd_powk_2)(vrd2_t x, vid2_t iy)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3504,7 +3504,7 @@ MTH_DISPATCH_FUNC(__pd_powk_2)(vrd2_t x, vid2_t iy)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__fd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3514,7 +3514,7 @@ MTH_DISPATCH_FUNC(__fd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__rd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3524,7 +3524,7 @@ MTH_DISPATCH_FUNC(__rd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
+MTH_DISPATCH_FUNC_D(__pd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t, vid2_t);
   _MTH_I_INIT();
@@ -3534,7 +3534,7 @@ MTH_DISPATCH_FUNC(__pd_powk_2m)(vrd2_t x, vid2_t iy, vid2_t mask)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_sincos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_sincos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3544,7 +3544,7 @@ MTH_DISPATCH_FUNC(__fs_sincos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_sincos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_sincos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3554,7 +3554,7 @@ MTH_DISPATCH_FUNC(__rs_sincos_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_sincos_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_sincos_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3564,7 +3564,7 @@ MTH_DISPATCH_FUNC(__ps_sincos_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sincos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_sincos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3574,7 +3574,7 @@ MTH_DISPATCH_FUNC(__fs_sincos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sincos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_sincos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3584,7 +3584,7 @@ MTH_DISPATCH_FUNC(__rs_sincos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sincos_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_sincos_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3594,7 +3594,7 @@ MTH_DISPATCH_FUNC(__ps_sincos_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sincos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_sincos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3604,7 +3604,7 @@ MTH_DISPATCH_FUNC(__fs_sincos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sincos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_sincos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3614,7 +3614,7 @@ MTH_DISPATCH_FUNC(__rs_sincos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sincos_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_sincos_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3624,7 +3624,7 @@ MTH_DISPATCH_FUNC(__ps_sincos_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_sincos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_sincos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3634,7 +3634,7 @@ MTH_DISPATCH_FUNC(__fd_sincos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_sincos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_sincos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3644,7 +3644,7 @@ MTH_DISPATCH_FUNC(__rd_sincos_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_sincos_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_sincos_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3654,7 +3654,7 @@ MTH_DISPATCH_FUNC(__pd_sincos_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sincos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_sincos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3664,7 +3664,7 @@ MTH_DISPATCH_FUNC(__fd_sincos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sincos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_sincos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3674,7 +3674,7 @@ MTH_DISPATCH_FUNC(__rd_sincos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sincos_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_sincos_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3684,7 +3684,7 @@ MTH_DISPATCH_FUNC(__pd_sincos_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sincos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_sincos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3694,7 +3694,7 @@ MTH_DISPATCH_FUNC(__fd_sincos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sincos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_sincos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3704,7 +3704,7 @@ MTH_DISPATCH_FUNC(__rd_sincos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sincos_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_sincos_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3714,7 +3714,7 @@ MTH_DISPATCH_FUNC(__pd_sincos_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_aint_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_aint_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3724,7 +3724,7 @@ MTH_DISPATCH_FUNC(__fs_aint_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_aint_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_aint_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3734,7 +3734,7 @@ MTH_DISPATCH_FUNC(__rs_aint_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_aint_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_aint_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3744,7 +3744,7 @@ MTH_DISPATCH_FUNC(__ps_aint_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_aint_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_aint_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3754,7 +3754,7 @@ MTH_DISPATCH_FUNC(__fs_aint_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_aint_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_aint_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3764,7 +3764,7 @@ MTH_DISPATCH_FUNC(__rs_aint_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_aint_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_aint_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3774,7 +3774,7 @@ MTH_DISPATCH_FUNC(__ps_aint_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_aint_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_aint_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3784,7 +3784,7 @@ MTH_DISPATCH_FUNC(__fs_aint_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_aint_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_aint_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3794,7 +3794,7 @@ MTH_DISPATCH_FUNC(__rs_aint_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_aint_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_aint_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3804,7 +3804,7 @@ MTH_DISPATCH_FUNC(__ps_aint_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_aint_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_aint_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3814,7 +3814,7 @@ MTH_DISPATCH_FUNC(__fd_aint_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_aint_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_aint_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3824,7 +3824,7 @@ MTH_DISPATCH_FUNC(__rd_aint_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_aint_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_aint_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3834,7 +3834,7 @@ MTH_DISPATCH_FUNC(__pd_aint_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_aint_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_aint_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3844,7 +3844,7 @@ MTH_DISPATCH_FUNC(__fd_aint_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_aint_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_aint_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3854,7 +3854,7 @@ MTH_DISPATCH_FUNC(__rd_aint_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_aint_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_aint_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -3864,7 +3864,7 @@ MTH_DISPATCH_FUNC(__pd_aint_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_aint_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_aint_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3874,7 +3874,7 @@ MTH_DISPATCH_FUNC(__fd_aint_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_aint_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_aint_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3884,7 +3884,7 @@ MTH_DISPATCH_FUNC(__rd_aint_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_aint_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_aint_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -3894,7 +3894,7 @@ MTH_DISPATCH_FUNC(__pd_aint_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_ceil_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_ceil_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3904,7 +3904,7 @@ MTH_DISPATCH_FUNC(__fs_ceil_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_ceil_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_ceil_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3914,7 +3914,7 @@ MTH_DISPATCH_FUNC(__rs_ceil_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_ceil_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_ceil_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -3924,7 +3924,7 @@ MTH_DISPATCH_FUNC(__ps_ceil_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_ceil_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_ceil_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3934,7 +3934,7 @@ MTH_DISPATCH_FUNC(__fs_ceil_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_ceil_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_ceil_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3944,7 +3944,7 @@ MTH_DISPATCH_FUNC(__rs_ceil_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_ceil_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_ceil_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -3954,7 +3954,7 @@ MTH_DISPATCH_FUNC(__ps_ceil_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_ceil_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_ceil_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3964,7 +3964,7 @@ MTH_DISPATCH_FUNC(__fs_ceil_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_ceil_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_ceil_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3974,7 +3974,7 @@ MTH_DISPATCH_FUNC(__rs_ceil_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_ceil_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_ceil_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -3984,7 +3984,7 @@ MTH_DISPATCH_FUNC(__ps_ceil_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_ceil_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_ceil_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -3994,7 +3994,7 @@ MTH_DISPATCH_FUNC(__fd_ceil_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_ceil_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_ceil_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -4004,7 +4004,7 @@ MTH_DISPATCH_FUNC(__rd_ceil_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_ceil_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_ceil_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -4014,7 +4014,7 @@ MTH_DISPATCH_FUNC(__pd_ceil_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_ceil_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_ceil_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4024,7 +4024,7 @@ MTH_DISPATCH_FUNC(__fd_ceil_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_ceil_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_ceil_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4034,7 +4034,7 @@ MTH_DISPATCH_FUNC(__rd_ceil_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_ceil_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_ceil_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4044,7 +4044,7 @@ MTH_DISPATCH_FUNC(__pd_ceil_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_ceil_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_ceil_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4054,7 +4054,7 @@ MTH_DISPATCH_FUNC(__fd_ceil_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_ceil_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_ceil_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4064,7 +4064,7 @@ MTH_DISPATCH_FUNC(__rd_ceil_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_ceil_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_ceil_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4074,7 +4074,7 @@ MTH_DISPATCH_FUNC(__pd_ceil_2m)(vrd2_t x, vid2_t m)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__fs_floor_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__fs_floor_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -4084,7 +4084,7 @@ MTH_DISPATCH_FUNC(__fs_floor_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__rs_floor_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__rs_floor_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -4094,7 +4094,7 @@ MTH_DISPATCH_FUNC(__rs_floor_1)(vrs1_t x)
 }
 
 vrs1_t
-MTH_DISPATCH_FUNC(__ps_floor_1)(vrs1_t x)
+MTH_DISPATCH_FUNC_D(__ps_floor_1)(vrs1_t x)
 {
   vrs1_t (*fptr)(vrs1_t);
   _MTH_I_INIT();
@@ -4104,7 +4104,7 @@ MTH_DISPATCH_FUNC(__ps_floor_1)(vrs1_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_floor_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__fs_floor_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -4114,7 +4114,7 @@ MTH_DISPATCH_FUNC(__fs_floor_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_floor_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__rs_floor_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -4124,7 +4124,7 @@ MTH_DISPATCH_FUNC(__rs_floor_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_floor_4)(vrs4_t x)
+MTH_DISPATCH_FUNC_D(__ps_floor_4)(vrs4_t x)
 {
   vrs4_t (*fptr)(vrs4_t);
   _MTH_I_INIT();
@@ -4134,7 +4134,7 @@ MTH_DISPATCH_FUNC(__ps_floor_4)(vrs4_t x)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_floor_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_floor_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -4144,7 +4144,7 @@ MTH_DISPATCH_FUNC(__fs_floor_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_floor_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_floor_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -4154,7 +4154,7 @@ MTH_DISPATCH_FUNC(__rs_floor_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_floor_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_floor_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -4164,7 +4164,7 @@ MTH_DISPATCH_FUNC(__ps_floor_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__fd_floor_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__fd_floor_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -4174,7 +4174,7 @@ MTH_DISPATCH_FUNC(__fd_floor_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__rd_floor_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__rd_floor_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -4184,7 +4184,7 @@ MTH_DISPATCH_FUNC(__rd_floor_1)(vrd1_t x)
 }
 
 vrd1_t
-MTH_DISPATCH_FUNC(__pd_floor_1)(vrd1_t x)
+MTH_DISPATCH_FUNC_D(__pd_floor_1)(vrd1_t x)
 {
   vrd1_t (*fptr)(vrd1_t);
   _MTH_I_INIT();
@@ -4194,7 +4194,7 @@ MTH_DISPATCH_FUNC(__pd_floor_1)(vrd1_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_floor_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__fd_floor_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4204,7 +4204,7 @@ MTH_DISPATCH_FUNC(__fd_floor_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_floor_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__rd_floor_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4214,7 +4214,7 @@ MTH_DISPATCH_FUNC(__rd_floor_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_floor_2)(vrd2_t x)
+MTH_DISPATCH_FUNC_D(__pd_floor_2)(vrd2_t x)
 {
   vrd2_t (*fptr)(vrd2_t);
   _MTH_I_INIT();
@@ -4224,7 +4224,7 @@ MTH_DISPATCH_FUNC(__pd_floor_2)(vrd2_t x)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_floor_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_floor_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4234,7 +4234,7 @@ MTH_DISPATCH_FUNC(__fd_floor_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_floor_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_floor_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4244,7 +4244,7 @@ MTH_DISPATCH_FUNC(__rd_floor_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_floor_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_floor_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -4257,7 +4257,7 @@ MTH_DISPATCH_FUNC(__pd_floor_2m)(vrd2_t x, vid2_t m)
 // EXPERIMENTAL - _Complex - start
 //////////
 float _Complex
-MTH_DISPATCH_FUNC(__fc_acos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_acos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4267,7 +4267,7 @@ MTH_DISPATCH_FUNC(__fc_acos_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_acos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_acos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4277,7 +4277,7 @@ MTH_DISPATCH_FUNC(__rc_acos_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_acos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_acos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4287,7 +4287,7 @@ MTH_DISPATCH_FUNC(__pc_acos_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_acos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_acos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4297,7 +4297,7 @@ MTH_DISPATCH_FUNC(__fc_acos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_acos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_acos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4307,7 +4307,7 @@ MTH_DISPATCH_FUNC(__rc_acos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_acos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_acos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4317,7 +4317,7 @@ MTH_DISPATCH_FUNC(__pc_acos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_acos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_acos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4327,7 +4327,7 @@ MTH_DISPATCH_FUNC(__fc_acos_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_acos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_acos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4337,7 +4337,7 @@ MTH_DISPATCH_FUNC(__rc_acos_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_acos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_acos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4347,7 +4347,7 @@ MTH_DISPATCH_FUNC(__pc_acos_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_acos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_acos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4357,7 +4357,7 @@ MTH_DISPATCH_FUNC(__fz_acos_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_acos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_acos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4367,7 +4367,7 @@ MTH_DISPATCH_FUNC(__rz_acos_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_acos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_acos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4377,7 +4377,7 @@ MTH_DISPATCH_FUNC(__pz_acos_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_asin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_asin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4387,7 +4387,7 @@ MTH_DISPATCH_FUNC(__fc_asin_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_asin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_asin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4397,7 +4397,7 @@ MTH_DISPATCH_FUNC(__rc_asin_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_asin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_asin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4407,7 +4407,7 @@ MTH_DISPATCH_FUNC(__pc_asin_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_asin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_asin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4417,7 +4417,7 @@ MTH_DISPATCH_FUNC(__fc_asin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_asin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_asin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4427,7 +4427,7 @@ MTH_DISPATCH_FUNC(__rc_asin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_asin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_asin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4437,7 +4437,7 @@ MTH_DISPATCH_FUNC(__pc_asin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_asin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_asin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4447,7 +4447,7 @@ MTH_DISPATCH_FUNC(__fc_asin_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_asin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_asin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4457,7 +4457,7 @@ MTH_DISPATCH_FUNC(__rc_asin_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_asin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_asin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4467,7 +4467,7 @@ MTH_DISPATCH_FUNC(__pc_asin_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_asin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_asin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4477,7 +4477,7 @@ MTH_DISPATCH_FUNC(__fz_asin_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_asin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_asin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4487,7 +4487,7 @@ MTH_DISPATCH_FUNC(__rz_asin_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_asin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_asin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4497,7 +4497,7 @@ MTH_DISPATCH_FUNC(__pz_asin_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_atan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_atan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4507,7 +4507,7 @@ MTH_DISPATCH_FUNC(__fc_atan_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_atan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_atan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4517,7 +4517,7 @@ MTH_DISPATCH_FUNC(__rc_atan_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_atan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_atan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4527,7 +4527,7 @@ MTH_DISPATCH_FUNC(__pc_atan_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_atan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_atan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4537,7 +4537,7 @@ MTH_DISPATCH_FUNC(__fc_atan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_atan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_atan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4547,7 +4547,7 @@ MTH_DISPATCH_FUNC(__rc_atan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_atan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_atan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4557,7 +4557,7 @@ MTH_DISPATCH_FUNC(__pc_atan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_atan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_atan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4567,7 +4567,7 @@ MTH_DISPATCH_FUNC(__fc_atan_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_atan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_atan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4577,7 +4577,7 @@ MTH_DISPATCH_FUNC(__rc_atan_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_atan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_atan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4587,7 +4587,7 @@ MTH_DISPATCH_FUNC(__pc_atan_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_atan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_atan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4597,7 +4597,7 @@ MTH_DISPATCH_FUNC(__fz_atan_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_atan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_atan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4607,7 +4607,7 @@ MTH_DISPATCH_FUNC(__rz_atan_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_atan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_atan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4617,7 +4617,7 @@ MTH_DISPATCH_FUNC(__pz_atan_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_cos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_cos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4627,7 +4627,7 @@ MTH_DISPATCH_FUNC(__fc_cos_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_cos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_cos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4637,7 +4637,7 @@ MTH_DISPATCH_FUNC(__rc_cos_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_cos_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_cos_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4647,7 +4647,7 @@ MTH_DISPATCH_FUNC(__pc_cos_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_cos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_cos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4657,7 +4657,7 @@ MTH_DISPATCH_FUNC(__fc_cos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_cos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_cos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4667,7 +4667,7 @@ MTH_DISPATCH_FUNC(__rc_cos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_cos_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_cos_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4677,7 +4677,7 @@ MTH_DISPATCH_FUNC(__pc_cos_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_cos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_cos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4687,7 +4687,7 @@ MTH_DISPATCH_FUNC(__fc_cos_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_cos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_cos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4697,7 +4697,7 @@ MTH_DISPATCH_FUNC(__rc_cos_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_cos_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_cos_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4707,7 +4707,7 @@ MTH_DISPATCH_FUNC(__pc_cos_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_cos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_cos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4717,7 +4717,7 @@ MTH_DISPATCH_FUNC(__fz_cos_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_cos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_cos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4727,7 +4727,7 @@ MTH_DISPATCH_FUNC(__rz_cos_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_cos_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_cos_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4737,7 +4737,7 @@ MTH_DISPATCH_FUNC(__pz_cos_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_sin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_sin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4747,7 +4747,7 @@ MTH_DISPATCH_FUNC(__fc_sin_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_sin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_sin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4757,7 +4757,7 @@ MTH_DISPATCH_FUNC(__rc_sin_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_sin_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_sin_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4767,7 +4767,7 @@ MTH_DISPATCH_FUNC(__pc_sin_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_sin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4777,7 +4777,7 @@ MTH_DISPATCH_FUNC(__fc_sin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_sin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4787,7 +4787,7 @@ MTH_DISPATCH_FUNC(__rc_sin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sin_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_sin_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4797,7 +4797,7 @@ MTH_DISPATCH_FUNC(__pc_sin_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_sin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4807,7 +4807,7 @@ MTH_DISPATCH_FUNC(__fc_sin_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_sin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4817,7 +4817,7 @@ MTH_DISPATCH_FUNC(__rc_sin_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sin_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_sin_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4827,7 +4827,7 @@ MTH_DISPATCH_FUNC(__pc_sin_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_sin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_sin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4837,7 +4837,7 @@ MTH_DISPATCH_FUNC(__fz_sin_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_sin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_sin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4847,7 +4847,7 @@ MTH_DISPATCH_FUNC(__rz_sin_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_sin_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_sin_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4857,7 +4857,7 @@ MTH_DISPATCH_FUNC(__pz_sin_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_tan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_tan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4867,7 +4867,7 @@ MTH_DISPATCH_FUNC(__fc_tan_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_tan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_tan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4877,7 +4877,7 @@ MTH_DISPATCH_FUNC(__rc_tan_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_tan_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_tan_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4887,7 +4887,7 @@ MTH_DISPATCH_FUNC(__pc_tan_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_tan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_tan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4897,7 +4897,7 @@ MTH_DISPATCH_FUNC(__fc_tan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_tan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_tan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4907,7 +4907,7 @@ MTH_DISPATCH_FUNC(__rc_tan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_tan_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_tan_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -4917,7 +4917,7 @@ MTH_DISPATCH_FUNC(__pc_tan_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_tan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_tan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4927,7 +4927,7 @@ MTH_DISPATCH_FUNC(__fc_tan_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_tan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_tan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4937,7 +4937,7 @@ MTH_DISPATCH_FUNC(__rc_tan_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_tan_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_tan_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -4947,7 +4947,7 @@ MTH_DISPATCH_FUNC(__pc_tan_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_tan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_tan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4957,7 +4957,7 @@ MTH_DISPATCH_FUNC(__fz_tan_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_tan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_tan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4967,7 +4967,7 @@ MTH_DISPATCH_FUNC(__rz_tan_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_tan_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_tan_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -4977,7 +4977,7 @@ MTH_DISPATCH_FUNC(__pz_tan_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_cosh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_cosh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4987,7 +4987,7 @@ MTH_DISPATCH_FUNC(__fc_cosh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_cosh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_cosh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -4997,7 +4997,7 @@ MTH_DISPATCH_FUNC(__rc_cosh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_cosh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_cosh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5007,7 +5007,7 @@ MTH_DISPATCH_FUNC(__pc_cosh_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_cosh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_cosh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5017,7 +5017,7 @@ MTH_DISPATCH_FUNC(__fc_cosh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_cosh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_cosh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5027,7 +5027,7 @@ MTH_DISPATCH_FUNC(__rc_cosh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_cosh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_cosh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5037,7 +5037,7 @@ MTH_DISPATCH_FUNC(__pc_cosh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_cosh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_cosh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5047,7 +5047,7 @@ MTH_DISPATCH_FUNC(__fc_cosh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_cosh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_cosh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5057,7 +5057,7 @@ MTH_DISPATCH_FUNC(__rc_cosh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_cosh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_cosh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5067,7 +5067,7 @@ MTH_DISPATCH_FUNC(__pc_cosh_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_cosh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_cosh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5077,7 +5077,7 @@ MTH_DISPATCH_FUNC(__fz_cosh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_cosh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_cosh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5087,7 +5087,7 @@ MTH_DISPATCH_FUNC(__rz_cosh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_cosh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_cosh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5097,7 +5097,7 @@ MTH_DISPATCH_FUNC(__pz_cosh_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_sinh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_sinh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5107,7 +5107,7 @@ MTH_DISPATCH_FUNC(__fc_sinh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_sinh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_sinh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5117,7 +5117,7 @@ MTH_DISPATCH_FUNC(__rc_sinh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_sinh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_sinh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5127,7 +5127,7 @@ MTH_DISPATCH_FUNC(__pc_sinh_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sinh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_sinh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5137,7 +5137,7 @@ MTH_DISPATCH_FUNC(__fc_sinh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sinh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_sinh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5147,7 +5147,7 @@ MTH_DISPATCH_FUNC(__rc_sinh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sinh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_sinh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5157,7 +5157,7 @@ MTH_DISPATCH_FUNC(__pc_sinh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sinh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_sinh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5167,7 +5167,7 @@ MTH_DISPATCH_FUNC(__fc_sinh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sinh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_sinh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5177,7 +5177,7 @@ MTH_DISPATCH_FUNC(__rc_sinh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sinh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_sinh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5187,7 +5187,7 @@ MTH_DISPATCH_FUNC(__pc_sinh_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_sinh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_sinh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5197,7 +5197,7 @@ MTH_DISPATCH_FUNC(__fz_sinh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_sinh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_sinh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5207,7 +5207,7 @@ MTH_DISPATCH_FUNC(__rz_sinh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_sinh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_sinh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5217,7 +5217,7 @@ MTH_DISPATCH_FUNC(__pz_sinh_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_tanh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_tanh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5227,7 +5227,7 @@ MTH_DISPATCH_FUNC(__fc_tanh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_tanh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_tanh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5237,7 +5237,7 @@ MTH_DISPATCH_FUNC(__rc_tanh_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_tanh_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_tanh_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5247,7 +5247,7 @@ MTH_DISPATCH_FUNC(__pc_tanh_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_tanh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_tanh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5257,7 +5257,7 @@ MTH_DISPATCH_FUNC(__fc_tanh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_tanh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_tanh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5267,7 +5267,7 @@ MTH_DISPATCH_FUNC(__rc_tanh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_tanh_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_tanh_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5277,7 +5277,7 @@ MTH_DISPATCH_FUNC(__pc_tanh_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_tanh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_tanh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5287,7 +5287,7 @@ MTH_DISPATCH_FUNC(__fc_tanh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_tanh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_tanh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5297,7 +5297,7 @@ MTH_DISPATCH_FUNC(__rc_tanh_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_tanh_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_tanh_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5307,7 +5307,7 @@ MTH_DISPATCH_FUNC(__pc_tanh_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_tanh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_tanh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5317,7 +5317,7 @@ MTH_DISPATCH_FUNC(__fz_tanh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_tanh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_tanh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5327,7 +5327,7 @@ MTH_DISPATCH_FUNC(__rz_tanh_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_tanh_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_tanh_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5337,7 +5337,7 @@ MTH_DISPATCH_FUNC(__pz_tanh_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_exp_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_exp_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5347,7 +5347,7 @@ MTH_DISPATCH_FUNC(__fc_exp_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_exp_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_exp_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5357,7 +5357,7 @@ MTH_DISPATCH_FUNC(__rc_exp_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_exp_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_exp_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5367,7 +5367,7 @@ MTH_DISPATCH_FUNC(__pc_exp_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_exp_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_exp_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5377,7 +5377,7 @@ MTH_DISPATCH_FUNC(__fc_exp_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_exp_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_exp_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5387,7 +5387,7 @@ MTH_DISPATCH_FUNC(__rc_exp_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_exp_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_exp_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5397,7 +5397,7 @@ MTH_DISPATCH_FUNC(__pc_exp_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_exp_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_exp_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5407,7 +5407,7 @@ MTH_DISPATCH_FUNC(__fc_exp_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_exp_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_exp_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5417,7 +5417,7 @@ MTH_DISPATCH_FUNC(__rc_exp_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_exp_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_exp_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5427,7 +5427,7 @@ MTH_DISPATCH_FUNC(__pc_exp_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_exp_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_exp_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5437,7 +5437,7 @@ MTH_DISPATCH_FUNC(__fz_exp_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_exp_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_exp_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5447,7 +5447,7 @@ MTH_DISPATCH_FUNC(__rz_exp_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_exp_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_exp_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5457,7 +5457,7 @@ MTH_DISPATCH_FUNC(__pz_exp_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_log_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_log_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5467,7 +5467,7 @@ MTH_DISPATCH_FUNC(__fc_log_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_log_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_log_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5477,7 +5477,7 @@ MTH_DISPATCH_FUNC(__rc_log_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_log_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_log_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5487,7 +5487,7 @@ MTH_DISPATCH_FUNC(__pc_log_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_log_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_log_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5497,7 +5497,7 @@ MTH_DISPATCH_FUNC(__fc_log_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_log_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_log_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5507,7 +5507,7 @@ MTH_DISPATCH_FUNC(__rc_log_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_log_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_log_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5517,7 +5517,7 @@ MTH_DISPATCH_FUNC(__pc_log_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_log_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_log_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5527,7 +5527,7 @@ MTH_DISPATCH_FUNC(__fc_log_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_log_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_log_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5537,7 +5537,7 @@ MTH_DISPATCH_FUNC(__rc_log_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_log_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_log_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5547,7 +5547,7 @@ MTH_DISPATCH_FUNC(__pc_log_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_log_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_log_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5557,7 +5557,7 @@ MTH_DISPATCH_FUNC(__fz_log_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_log_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_log_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5567,7 +5567,7 @@ MTH_DISPATCH_FUNC(__rz_log_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_log_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_log_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5577,7 +5577,7 @@ MTH_DISPATCH_FUNC(__pz_log_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_log10_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_log10_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5587,7 +5587,7 @@ MTH_DISPATCH_FUNC(__fc_log10_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_log10_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_log10_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5597,7 +5597,7 @@ MTH_DISPATCH_FUNC(__rc_log10_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_log10_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_log10_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -5607,7 +5607,7 @@ MTH_DISPATCH_FUNC(__pc_log10_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_log10_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_log10_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5617,7 +5617,7 @@ MTH_DISPATCH_FUNC(__fc_log10_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_log10_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_log10_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5627,7 +5627,7 @@ MTH_DISPATCH_FUNC(__rc_log10_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_log10_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_log10_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -5637,7 +5637,7 @@ MTH_DISPATCH_FUNC(__pc_log10_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_log10_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_log10_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5647,7 +5647,7 @@ MTH_DISPATCH_FUNC(__fc_log10_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_log10_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_log10_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5657,7 +5657,7 @@ MTH_DISPATCH_FUNC(__rc_log10_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_log10_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_log10_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5667,7 +5667,7 @@ MTH_DISPATCH_FUNC(__pc_log10_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_log10_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_log10_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5677,7 +5677,7 @@ MTH_DISPATCH_FUNC(__fz_log10_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_log10_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_log10_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5687,7 +5687,7 @@ MTH_DISPATCH_FUNC(__rz_log10_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_log10_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_log10_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -5697,7 +5697,7 @@ MTH_DISPATCH_FUNC(__pz_log10_1)(double _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_pow_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__fc_pow_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -5707,7 +5707,7 @@ MTH_DISPATCH_FUNC(__fc_pow_1)(float _Complex x, float _Complex y)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_pow_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__rc_pow_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -5717,7 +5717,7 @@ MTH_DISPATCH_FUNC(__rc_pow_1)(float _Complex x, float _Complex y)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_pow_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__pc_pow_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -5727,7 +5727,7 @@ MTH_DISPATCH_FUNC(__pc_pow_1)(float _Complex x, float _Complex y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_pow_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__fc_pow_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -5737,7 +5737,7 @@ MTH_DISPATCH_FUNC(__fc_pow_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_pow_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__rc_pow_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -5747,7 +5747,7 @@ MTH_DISPATCH_FUNC(__rc_pow_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_pow_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__pc_pow_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -5757,7 +5757,7 @@ MTH_DISPATCH_FUNC(__pc_pow_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5767,7 +5767,7 @@ MTH_DISPATCH_FUNC(__fc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5777,7 +5777,7 @@ MTH_DISPATCH_FUNC(__rc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -5787,7 +5787,7 @@ MTH_DISPATCH_FUNC(__pc_pow_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_pow_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__fz_pow_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -5797,7 +5797,7 @@ MTH_DISPATCH_FUNC(__fz_pow_1)(double _Complex x, double _Complex y)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_pow_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__rz_pow_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -5807,7 +5807,7 @@ MTH_DISPATCH_FUNC(__rz_pow_1)(double _Complex x, double _Complex y)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_pow_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__pz_pow_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -5817,7 +5817,7 @@ MTH_DISPATCH_FUNC(__pz_pow_1)(double _Complex x, double _Complex y)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_powi_1)(float _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__fc_powi_1)(float _Complex x, int iy)
 {
   float _Complex (*fptr)(float _Complex, int);
   _MTH_I_INIT();
@@ -5827,7 +5827,7 @@ MTH_DISPATCH_FUNC(__fc_powi_1)(float _Complex x, int iy)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_powi_1)(float _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__rc_powi_1)(float _Complex x, int iy)
 {
   float _Complex (*fptr)(float _Complex, int);
   _MTH_I_INIT();
@@ -5837,7 +5837,7 @@ MTH_DISPATCH_FUNC(__rc_powi_1)(float _Complex x, int iy)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_powi_1)(float _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__pc_powi_1)(float _Complex x, int iy)
 {
   float _Complex (*fptr)(float _Complex, int);
   _MTH_I_INIT();
@@ -5847,7 +5847,7 @@ MTH_DISPATCH_FUNC(__pc_powi_1)(float _Complex x, int iy)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_powk_1)(float _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__fc_powk_1)(float _Complex x, long long iy)
 {
   float _Complex (*fptr)(float _Complex, long long);
   _MTH_I_INIT();
@@ -5857,7 +5857,7 @@ MTH_DISPATCH_FUNC(__fc_powk_1)(float _Complex x, long long iy)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_powk_1)(float _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__rc_powk_1)(float _Complex x, long long iy)
 {
   float _Complex (*fptr)(float _Complex, long long);
   _MTH_I_INIT();
@@ -5867,7 +5867,7 @@ MTH_DISPATCH_FUNC(__rc_powk_1)(float _Complex x, long long iy)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_powk_1)(float _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__pc_powk_1)(float _Complex x, long long iy)
 {
   float _Complex (*fptr)(float _Complex, long long);
   _MTH_I_INIT();
@@ -5877,7 +5877,7 @@ MTH_DISPATCH_FUNC(__pc_powk_1)(float _Complex x, long long iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_powi_1)(double _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__fz_powi_1)(double _Complex x, int iy)
 {
   double _Complex (*fptr)(double _Complex, int);
   _MTH_I_INIT();
@@ -5887,7 +5887,7 @@ MTH_DISPATCH_FUNC(__fz_powi_1)(double _Complex x, int iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_powi_1)(double _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__rz_powi_1)(double _Complex x, int iy)
 {
   double _Complex (*fptr)(double _Complex, int);
   _MTH_I_INIT();
@@ -5897,7 +5897,7 @@ MTH_DISPATCH_FUNC(__rz_powi_1)(double _Complex x, int iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_powi_1)(double _Complex x, int iy)
+MTH_DISPATCH_FUNC_D(__pz_powi_1)(double _Complex x, int iy)
 {
   double _Complex (*fptr)(double _Complex, int);
   _MTH_I_INIT();
@@ -5907,7 +5907,7 @@ MTH_DISPATCH_FUNC(__pz_powi_1)(double _Complex x, int iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_powk_1)(double _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__fz_powk_1)(double _Complex x, long long iy)
 {
   double _Complex (*fptr)(double _Complex, long long);
   _MTH_I_INIT();
@@ -5917,7 +5917,7 @@ MTH_DISPATCH_FUNC(__fz_powk_1)(double _Complex x, long long iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_powk_1)(double _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__rz_powk_1)(double _Complex x, long long iy)
 {
   double _Complex (*fptr)(double _Complex, long long);
   _MTH_I_INIT();
@@ -5927,7 +5927,7 @@ MTH_DISPATCH_FUNC(__rz_powk_1)(double _Complex x, long long iy)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_powk_1)(double _Complex x, long long iy)
+MTH_DISPATCH_FUNC_D(__pz_powk_1)(double _Complex x, long long iy)
 {
   double _Complex (*fptr)(double _Complex, long long);
   _MTH_I_INIT();
@@ -5937,7 +5937,7 @@ MTH_DISPATCH_FUNC(__pz_powk_1)(double _Complex x, long long iy)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -5947,7 +5947,7 @@ MTH_DISPATCH_FUNC(__fs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -5957,7 +5957,7 @@ MTH_DISPATCH_FUNC(__rs_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -5967,7 +5967,7 @@ MTH_DISPATCH_FUNC(__ps_div_4m)(vrs4_t x, vrs4_t y, vis4_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -5977,7 +5977,7 @@ MTH_DISPATCH_FUNC(__fd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -5987,7 +5987,7 @@ MTH_DISPATCH_FUNC(__rd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -5997,7 +5997,7 @@ MTH_DISPATCH_FUNC(__pd_div_2m)(vrd2_t x, vrd2_t y, vid2_t m)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_div_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__fc_div_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -6007,7 +6007,7 @@ MTH_DISPATCH_FUNC(__fc_div_1)(float _Complex x, float _Complex y)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_div_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__rc_div_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -6017,7 +6017,7 @@ MTH_DISPATCH_FUNC(__rc_div_1)(float _Complex x, float _Complex y)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_div_1)(float _Complex x, float _Complex y)
+MTH_DISPATCH_FUNC_D(__pc_div_1)(float _Complex x, float _Complex y)
 {
   float _Complex (*fptr)(float _Complex, float _Complex);
   _MTH_I_INIT();
@@ -6027,7 +6027,7 @@ MTH_DISPATCH_FUNC(__pc_div_1)(float _Complex x, float _Complex y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_div_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__fc_div_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -6037,7 +6037,7 @@ MTH_DISPATCH_FUNC(__fc_div_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_div_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__rc_div_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -6047,7 +6047,7 @@ MTH_DISPATCH_FUNC(__rc_div_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_div_2)(vcs2_t x, vcs2_t y)
+MTH_DISPATCH_FUNC_D(__pc_div_2)(vcs2_t x, vcs2_t y)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t);
   _MTH_I_INIT();
@@ -6057,7 +6057,7 @@ MTH_DISPATCH_FUNC(__pc_div_2)(vcs2_t x, vcs2_t y)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6067,7 +6067,7 @@ MTH_DISPATCH_FUNC(__fc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6077,7 +6077,7 @@ MTH_DISPATCH_FUNC(__rc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6087,7 +6087,7 @@ MTH_DISPATCH_FUNC(__pc_div_2m)(vcs2_t x, vcs2_t y, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_div_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__fz_div_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -6097,7 +6097,7 @@ MTH_DISPATCH_FUNC(__fz_div_1)(double _Complex x, double _Complex y)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_div_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__rz_div_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -6107,7 +6107,7 @@ MTH_DISPATCH_FUNC(__rz_div_1)(double _Complex x, double _Complex y)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_div_1)(double _Complex x, double _Complex y)
+MTH_DISPATCH_FUNC_D(__pz_div_1)(double _Complex x, double _Complex y)
 {
   double _Complex (*fptr)(double _Complex, double _Complex);
   _MTH_I_INIT();
@@ -6117,7 +6117,7 @@ MTH_DISPATCH_FUNC(__pz_div_1)(double _Complex x, double _Complex y)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__fs_sqrt_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__fs_sqrt_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -6127,7 +6127,7 @@ MTH_DISPATCH_FUNC(__fs_sqrt_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__rs_sqrt_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__rs_sqrt_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -6137,7 +6137,7 @@ MTH_DISPATCH_FUNC(__rs_sqrt_4m)(vrs4_t x, vis4_t m)
 }
 
 vrs4_t
-MTH_DISPATCH_FUNC(__ps_sqrt_4m)(vrs4_t x, vis4_t m)
+MTH_DISPATCH_FUNC_D(__ps_sqrt_4m)(vrs4_t x, vis4_t m)
 {
   vrs4_t (*fptr)(vrs4_t, vis4_t);
   _MTH_I_INIT();
@@ -6147,7 +6147,7 @@ MTH_DISPATCH_FUNC(__ps_sqrt_4m)(vrs4_t x, vis4_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__fd_sqrt_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__fd_sqrt_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -6157,7 +6157,7 @@ MTH_DISPATCH_FUNC(__fd_sqrt_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__rd_sqrt_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__rd_sqrt_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -6167,7 +6167,7 @@ MTH_DISPATCH_FUNC(__rd_sqrt_2m)(vrd2_t x, vid2_t m)
 }
 
 vrd2_t
-MTH_DISPATCH_FUNC(__pd_sqrt_2m)(vrd2_t x, vid2_t m)
+MTH_DISPATCH_FUNC_D(__pd_sqrt_2m)(vrd2_t x, vid2_t m)
 {
   vrd2_t (*fptr)(vrd2_t, vid2_t);
   _MTH_I_INIT();
@@ -6177,7 +6177,7 @@ MTH_DISPATCH_FUNC(__pd_sqrt_2m)(vrd2_t x, vid2_t m)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__fc_sqrt_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__fc_sqrt_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -6187,7 +6187,7 @@ MTH_DISPATCH_FUNC(__fc_sqrt_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__rc_sqrt_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__rc_sqrt_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -6197,7 +6197,7 @@ MTH_DISPATCH_FUNC(__rc_sqrt_1)(float _Complex x)
 }
 
 float _Complex
-MTH_DISPATCH_FUNC(__pc_sqrt_1)(float _Complex x)
+MTH_DISPATCH_FUNC_D(__pc_sqrt_1)(float _Complex x)
 {
   float _Complex (*fptr)(float _Complex);
   _MTH_I_INIT();
@@ -6207,7 +6207,7 @@ MTH_DISPATCH_FUNC(__pc_sqrt_1)(float _Complex x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sqrt_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__fc_sqrt_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -6217,7 +6217,7 @@ MTH_DISPATCH_FUNC(__fc_sqrt_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sqrt_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__rc_sqrt_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -6227,7 +6227,7 @@ MTH_DISPATCH_FUNC(__rc_sqrt_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sqrt_2)(vcs2_t x)
+MTH_DISPATCH_FUNC_D(__pc_sqrt_2)(vcs2_t x)
 {
   vcs2_t (*fptr)(vcs2_t);
   _MTH_I_INIT();
@@ -6237,7 +6237,7 @@ MTH_DISPATCH_FUNC(__pc_sqrt_2)(vcs2_t x)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__fc_sqrt_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__fc_sqrt_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6247,7 +6247,7 @@ MTH_DISPATCH_FUNC(__fc_sqrt_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__rc_sqrt_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__rc_sqrt_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6257,7 +6257,7 @@ MTH_DISPATCH_FUNC(__rc_sqrt_2m)(vcs2_t x, vis2_t m)
 }
 
 vcs2_t
-MTH_DISPATCH_FUNC(__pc_sqrt_2m)(vcs2_t x, vis2_t m)
+MTH_DISPATCH_FUNC_D(__pc_sqrt_2m)(vcs2_t x, vis2_t m)
 {
   vcs2_t (*fptr)(vcs2_t, vis2_t);
   _MTH_I_INIT();
@@ -6267,7 +6267,7 @@ MTH_DISPATCH_FUNC(__pc_sqrt_2m)(vcs2_t x, vis2_t m)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__fz_sqrt_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__fz_sqrt_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -6277,7 +6277,7 @@ MTH_DISPATCH_FUNC(__fz_sqrt_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__rz_sqrt_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__rz_sqrt_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -6287,7 +6287,7 @@ MTH_DISPATCH_FUNC(__rz_sqrt_1)(double _Complex x)
 }
 
 double _Complex
-MTH_DISPATCH_FUNC(__pz_sqrt_1)(double _Complex x)
+MTH_DISPATCH_FUNC_D(__pz_sqrt_1)(double _Complex x)
 {
   double _Complex (*fptr)(double _Complex);
   _MTH_I_INIT();
@@ -6301,7 +6301,7 @@ MTH_DISPATCH_FUNC(__pz_sqrt_1)(double _Complex x)
  */
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_acos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_acos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6311,7 +6311,7 @@ MTH_DISPATCH_FUNC(__fc_acos_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_acos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_acos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6321,7 +6321,7 @@ MTH_DISPATCH_FUNC(__rc_acos_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_acos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_acos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6331,7 +6331,7 @@ MTH_DISPATCH_FUNC(__pc_acos_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_acos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_acos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6341,7 +6341,7 @@ MTH_DISPATCH_FUNC(__fz_acos_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_acos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_acos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6351,7 +6351,7 @@ MTH_DISPATCH_FUNC(__rz_acos_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_acos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_acos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6361,7 +6361,7 @@ MTH_DISPATCH_FUNC(__pz_acos_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_asin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_asin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6371,7 +6371,7 @@ MTH_DISPATCH_FUNC(__fc_asin_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_asin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_asin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6381,7 +6381,7 @@ MTH_DISPATCH_FUNC(__rc_asin_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_asin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_asin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6391,7 +6391,7 @@ MTH_DISPATCH_FUNC(__pc_asin_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_asin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_asin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6401,7 +6401,7 @@ MTH_DISPATCH_FUNC(__fz_asin_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_asin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_asin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6411,7 +6411,7 @@ MTH_DISPATCH_FUNC(__rz_asin_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_asin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_asin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6421,7 +6421,7 @@ MTH_DISPATCH_FUNC(__pz_asin_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_atan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_atan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6431,7 +6431,7 @@ MTH_DISPATCH_FUNC(__fc_atan_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_atan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_atan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6441,7 +6441,7 @@ MTH_DISPATCH_FUNC(__rc_atan_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_atan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_atan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6451,7 +6451,7 @@ MTH_DISPATCH_FUNC(__pc_atan_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_atan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_atan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6461,7 +6461,7 @@ MTH_DISPATCH_FUNC(__fz_atan_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_atan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_atan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6471,7 +6471,7 @@ MTH_DISPATCH_FUNC(__rz_atan_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_atan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_atan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6481,7 +6481,7 @@ MTH_DISPATCH_FUNC(__pz_atan_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_cos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_cos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6491,7 +6491,7 @@ MTH_DISPATCH_FUNC(__fc_cos_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_cos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_cos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6501,7 +6501,7 @@ MTH_DISPATCH_FUNC(__rc_cos_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_cos_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_cos_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6511,7 +6511,7 @@ MTH_DISPATCH_FUNC(__pc_cos_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_cos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_cos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6521,7 +6521,7 @@ MTH_DISPATCH_FUNC(__fz_cos_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_cos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_cos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6531,7 +6531,7 @@ MTH_DISPATCH_FUNC(__rz_cos_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_cos_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_cos_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6541,7 +6541,7 @@ MTH_DISPATCH_FUNC(__pz_cos_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_sin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_sin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6551,7 +6551,7 @@ MTH_DISPATCH_FUNC(__fc_sin_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_sin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_sin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6561,7 +6561,7 @@ MTH_DISPATCH_FUNC(__rc_sin_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_sin_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_sin_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6571,7 +6571,7 @@ MTH_DISPATCH_FUNC(__pc_sin_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_sin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_sin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6581,7 +6581,7 @@ MTH_DISPATCH_FUNC(__fz_sin_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_sin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_sin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6591,7 +6591,7 @@ MTH_DISPATCH_FUNC(__rz_sin_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_sin_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_sin_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6601,7 +6601,7 @@ MTH_DISPATCH_FUNC(__pz_sin_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_tan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_tan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6611,7 +6611,7 @@ MTH_DISPATCH_FUNC(__fc_tan_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_tan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_tan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6621,7 +6621,7 @@ MTH_DISPATCH_FUNC(__rc_tan_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_tan_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_tan_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6631,7 +6631,7 @@ MTH_DISPATCH_FUNC(__pc_tan_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_tan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_tan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6641,7 +6641,7 @@ MTH_DISPATCH_FUNC(__fz_tan_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_tan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_tan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6651,7 +6651,7 @@ MTH_DISPATCH_FUNC(__rz_tan_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_tan_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_tan_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6661,7 +6661,7 @@ MTH_DISPATCH_FUNC(__pz_tan_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_cosh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_cosh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6671,7 +6671,7 @@ MTH_DISPATCH_FUNC(__fc_cosh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_cosh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_cosh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6681,7 +6681,7 @@ MTH_DISPATCH_FUNC(__rc_cosh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_cosh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_cosh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6691,7 +6691,7 @@ MTH_DISPATCH_FUNC(__pc_cosh_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_cosh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_cosh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6701,7 +6701,7 @@ MTH_DISPATCH_FUNC(__fz_cosh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_cosh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_cosh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6711,7 +6711,7 @@ MTH_DISPATCH_FUNC(__rz_cosh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_cosh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_cosh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6721,7 +6721,7 @@ MTH_DISPATCH_FUNC(__pz_cosh_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_sinh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_sinh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6731,7 +6731,7 @@ MTH_DISPATCH_FUNC(__fc_sinh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_sinh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_sinh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6741,7 +6741,7 @@ MTH_DISPATCH_FUNC(__rc_sinh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_sinh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_sinh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6751,7 +6751,7 @@ MTH_DISPATCH_FUNC(__pc_sinh_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_sinh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_sinh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6761,7 +6761,7 @@ MTH_DISPATCH_FUNC(__fz_sinh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_sinh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_sinh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6771,7 +6771,7 @@ MTH_DISPATCH_FUNC(__rz_sinh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_sinh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_sinh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6781,7 +6781,7 @@ MTH_DISPATCH_FUNC(__pz_sinh_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_tanh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_tanh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6791,7 +6791,7 @@ MTH_DISPATCH_FUNC(__fc_tanh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_tanh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_tanh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6801,7 +6801,7 @@ MTH_DISPATCH_FUNC(__rc_tanh_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_tanh_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_tanh_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6811,7 +6811,7 @@ MTH_DISPATCH_FUNC(__pc_tanh_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_tanh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_tanh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6821,7 +6821,7 @@ MTH_DISPATCH_FUNC(__fz_tanh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_tanh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_tanh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6831,7 +6831,7 @@ MTH_DISPATCH_FUNC(__rz_tanh_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_tanh_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_tanh_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6841,7 +6841,7 @@ MTH_DISPATCH_FUNC(__pz_tanh_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_exp_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_exp_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6851,7 +6851,7 @@ MTH_DISPATCH_FUNC(__fc_exp_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_exp_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_exp_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6861,7 +6861,7 @@ MTH_DISPATCH_FUNC(__rc_exp_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_exp_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_exp_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6871,7 +6871,7 @@ MTH_DISPATCH_FUNC(__pc_exp_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_exp_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_exp_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6881,7 +6881,7 @@ MTH_DISPATCH_FUNC(__fz_exp_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_exp_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_exp_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6891,7 +6891,7 @@ MTH_DISPATCH_FUNC(__rz_exp_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_exp_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_exp_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6901,7 +6901,7 @@ MTH_DISPATCH_FUNC(__pz_exp_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_log_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_log_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6911,7 +6911,7 @@ MTH_DISPATCH_FUNC(__fc_log_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_log_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_log_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6921,7 +6921,7 @@ MTH_DISPATCH_FUNC(__rc_log_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_log_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_log_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6931,7 +6931,7 @@ MTH_DISPATCH_FUNC(__pc_log_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_log_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_log_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6941,7 +6941,7 @@ MTH_DISPATCH_FUNC(__fz_log_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_log_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_log_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6951,7 +6951,7 @@ MTH_DISPATCH_FUNC(__rz_log_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_log_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_log_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -6961,7 +6961,7 @@ MTH_DISPATCH_FUNC(__pz_log_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_log10_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_log10_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6971,7 +6971,7 @@ MTH_DISPATCH_FUNC(__fc_log10_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_log10_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_log10_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6981,7 +6981,7 @@ MTH_DISPATCH_FUNC(__rc_log10_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_log10_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_log10_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -6991,7 +6991,7 @@ MTH_DISPATCH_FUNC(__pc_log10_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_log10_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_log10_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -7001,7 +7001,7 @@ MTH_DISPATCH_FUNC(__fz_log10_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_log10_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_log10_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -7011,7 +7011,7 @@ MTH_DISPATCH_FUNC(__rz_log10_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_log10_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_log10_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -7021,7 +7021,7 @@ MTH_DISPATCH_FUNC(__pz_log10_1v)(vcd1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_pow_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__fc_pow_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7031,7 +7031,7 @@ MTH_DISPATCH_FUNC(__fc_pow_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_pow_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__rc_pow_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7041,7 +7041,7 @@ MTH_DISPATCH_FUNC(__rc_pow_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_pow_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__pc_pow_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7051,7 +7051,7 @@ MTH_DISPATCH_FUNC(__pc_pow_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_pow_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__fz_pow_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7061,7 +7061,7 @@ MTH_DISPATCH_FUNC(__fz_pow_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_pow_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__rz_pow_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7071,7 +7071,7 @@ MTH_DISPATCH_FUNC(__rz_pow_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_pow_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__pz_pow_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7081,7 +7081,7 @@ MTH_DISPATCH_FUNC(__pz_pow_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_powi_1v)(vcs1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__fc_powi_1v)(vcs1_t x, int iy)
 {
   vcs1_t (*fptr)(vcs1_t, int);
   _MTH_I_INIT();
@@ -7091,7 +7091,7 @@ MTH_DISPATCH_FUNC(__fc_powi_1v)(vcs1_t x, int iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_powi_1v)(vcs1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__rc_powi_1v)(vcs1_t x, int iy)
 {
   vcs1_t (*fptr)(vcs1_t, int);
   _MTH_I_INIT();
@@ -7101,7 +7101,7 @@ MTH_DISPATCH_FUNC(__rc_powi_1v)(vcs1_t x, int iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_powi_1v)(vcs1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__pc_powi_1v)(vcs1_t x, int iy)
 {
   vcs1_t (*fptr)(vcs1_t, int);
   _MTH_I_INIT();
@@ -7111,7 +7111,7 @@ MTH_DISPATCH_FUNC(__pc_powi_1v)(vcs1_t x, int iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_powk_1v)(vcs1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__fc_powk_1v)(vcs1_t x, long long iy)
 {
   vcs1_t (*fptr)(vcs1_t, long long);
   _MTH_I_INIT();
@@ -7121,7 +7121,7 @@ MTH_DISPATCH_FUNC(__fc_powk_1v)(vcs1_t x, long long iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_powk_1v)(vcs1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__rc_powk_1v)(vcs1_t x, long long iy)
 {
   vcs1_t (*fptr)(vcs1_t, long long);
   _MTH_I_INIT();
@@ -7131,7 +7131,7 @@ MTH_DISPATCH_FUNC(__rc_powk_1v)(vcs1_t x, long long iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_powk_1v)(vcs1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__pc_powk_1v)(vcs1_t x, long long iy)
 {
   vcs1_t (*fptr)(vcs1_t, long long);
   _MTH_I_INIT();
@@ -7141,7 +7141,7 @@ MTH_DISPATCH_FUNC(__pc_powk_1v)(vcs1_t x, long long iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_powi_1v)(vcd1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__fz_powi_1v)(vcd1_t x, int iy)
 {
   vcd1_t (*fptr)(vcd1_t, int);
   _MTH_I_INIT();
@@ -7151,7 +7151,7 @@ MTH_DISPATCH_FUNC(__fz_powi_1v)(vcd1_t x, int iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_powi_1v)(vcd1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__rz_powi_1v)(vcd1_t x, int iy)
 {
   vcd1_t (*fptr)(vcd1_t, int);
   _MTH_I_INIT();
@@ -7161,7 +7161,7 @@ MTH_DISPATCH_FUNC(__rz_powi_1v)(vcd1_t x, int iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_powi_1v)(vcd1_t x, int iy)
+MTH_DISPATCH_FUNC_D(__pz_powi_1v)(vcd1_t x, int iy)
 {
   vcd1_t (*fptr)(vcd1_t, int);
   _MTH_I_INIT();
@@ -7171,7 +7171,7 @@ MTH_DISPATCH_FUNC(__pz_powi_1v)(vcd1_t x, int iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_powk_1v)(vcd1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__fz_powk_1v)(vcd1_t x, long long iy)
 {
   vcd1_t (*fptr)(vcd1_t, long long);
   _MTH_I_INIT();
@@ -7181,7 +7181,7 @@ MTH_DISPATCH_FUNC(__fz_powk_1v)(vcd1_t x, long long iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_powk_1v)(vcd1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__rz_powk_1v)(vcd1_t x, long long iy)
 {
   vcd1_t (*fptr)(vcd1_t, long long);
   _MTH_I_INIT();
@@ -7191,7 +7191,7 @@ MTH_DISPATCH_FUNC(__rz_powk_1v)(vcd1_t x, long long iy)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_powk_1v)(vcd1_t x, long long iy)
+MTH_DISPATCH_FUNC_D(__pz_powk_1v)(vcd1_t x, long long iy)
 {
   vcd1_t (*fptr)(vcd1_t, long long);
   _MTH_I_INIT();
@@ -7201,7 +7201,7 @@ MTH_DISPATCH_FUNC(__pz_powk_1v)(vcd1_t x, long long iy)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_div_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__fc_div_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7211,7 +7211,7 @@ MTH_DISPATCH_FUNC(__fc_div_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_div_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__rc_div_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7221,7 +7221,7 @@ MTH_DISPATCH_FUNC(__rc_div_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_div_1v)(vcs1_t x, vcs1_t y)
+MTH_DISPATCH_FUNC_D(__pc_div_1v)(vcs1_t x, vcs1_t y)
 {
   vcs1_t (*fptr)(vcs1_t, vcs1_t);
   _MTH_I_INIT();
@@ -7231,7 +7231,7 @@ MTH_DISPATCH_FUNC(__pc_div_1v)(vcs1_t x, vcs1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_div_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__fz_div_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7241,7 +7241,7 @@ MTH_DISPATCH_FUNC(__fz_div_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_div_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__rz_div_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7251,7 +7251,7 @@ MTH_DISPATCH_FUNC(__rz_div_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_div_1v)(vcd1_t x, vcd1_t y)
+MTH_DISPATCH_FUNC_D(__pz_div_1v)(vcd1_t x, vcd1_t y)
 {
   vcd1_t (*fptr)(vcd1_t, vcd1_t);
   _MTH_I_INIT();
@@ -7261,7 +7261,7 @@ MTH_DISPATCH_FUNC(__pz_div_1v)(vcd1_t x, vcd1_t y)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__fc_sqrt_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__fc_sqrt_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -7271,7 +7271,7 @@ MTH_DISPATCH_FUNC(__fc_sqrt_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__rc_sqrt_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__rc_sqrt_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -7281,7 +7281,7 @@ MTH_DISPATCH_FUNC(__rc_sqrt_1v)(vcs1_t x)
 }
 
 vcs1_t
-MTH_DISPATCH_FUNC(__pc_sqrt_1v)(vcs1_t x)
+MTH_DISPATCH_FUNC_D(__pc_sqrt_1v)(vcs1_t x)
 {
   vcs1_t (*fptr)(vcs1_t);
   _MTH_I_INIT();
@@ -7291,7 +7291,7 @@ MTH_DISPATCH_FUNC(__pc_sqrt_1v)(vcs1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__fz_sqrt_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__fz_sqrt_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -7301,7 +7301,7 @@ MTH_DISPATCH_FUNC(__fz_sqrt_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__rz_sqrt_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__rz_sqrt_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();
@@ -7311,7 +7311,7 @@ MTH_DISPATCH_FUNC(__rz_sqrt_1v)(vcd1_t x)
 }
 
 vcd1_t
-MTH_DISPATCH_FUNC(__pz_sqrt_1v)(vcd1_t x)
+MTH_DISPATCH_FUNC_D(__pz_sqrt_1v)(vcd1_t x)
 {
   vcd1_t (*fptr)(vcd1_t);
   _MTH_I_INIT();

@@ -5,7 +5,6 @@
  *
  */
 
-
 /*
  * Define supported architecutres.
  */
@@ -180,6 +179,8 @@ extern void _s (void);
 
 #define	_MTH_I_INIT()
 #ifdef	MTH_I_INTRIN_INIT
+#undef MTH_DISPATCH_FUNC
+#define MTH_DISPATCH_FUNC(f)    f##_init
 #undef	MTH_DISPATCH_FUNC
 #define	MTH_DISPATCH_FUNC(f)	f##_init
 #undef	_MTH_I_INIT
@@ -187,7 +188,7 @@ extern void _s (void);
 extern	void __math_dispatch_init(void);
 #endif
 
-//#ifdef	MTH_I_INTRIN_STATS
+#ifdef	MTH_I_INTRIN_STATS
 #define	MTH_DISPATCH_FUNC_D(f)	f##_prof
 #undef	MTH_DISPATCH_TBL
 #define	MTH_DISPATCH_TBL	__mth_rt_vi_ptrs_stat
@@ -200,6 +201,6 @@ extern	void __math_dispatch_init(void);
 extern	uint64_t	__mth_rt_stats[frp_size][func_size][sv_size];
 #define	_MTH_I_STATS_INC(_func,_sv,_frp) \
 	(void)__sync_fetch_and_add(&__mth_rt_stats[_frp][_func][_sv], 1);
-//#else	// MTH_I_INTRIN_STATS
-//#define	_MTH_I_STATS_INC(_func,_sv,_frp)
-//#endif	// MTH_I_INTRIN_STATS
+#else	// MTH_I_INTRIN_STATS
+#define	_MTH_I_STATS_INC(_func,_sv,_frp)
+#endif	// MTH_I_INTRIN_STATS

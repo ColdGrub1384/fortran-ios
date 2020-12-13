@@ -293,7 +293,7 @@ static mth_intrins_defs_t mth_intrins_defs[] = {
 #include "math_tables/mth_expdefs.h"
 #include "math_tables/mth_logdefs.h"
 #include "math_tables/mth_log10defs.h"
-#include "math_tables/mth_powdefs.h"
+#include "math_tables/mth_powdefs.h"*/
 #include "math_tables/mth_powidefs.h"
 #include "math_tables/mth_sincosdefs.h"
 #include "math_tables/mth_divdefs.h"
