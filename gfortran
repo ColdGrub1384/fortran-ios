@@ -30,7 +30,6 @@ all_args_are_object_files = True
 for arg in sys_args:
 
     if os.path.isfile(arg) and not arg.endswith(".o"):
-        print("Is not object file:", arg, file=sys.stderr)
         all_args_are_object_files = False
 
 if (not "-c" and not all_args_are_object_files) in sys_args or not "-arch arm64" in " ".join(sys.argv):

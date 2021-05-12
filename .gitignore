@@ -1,7 +1,7 @@
 llc
 deb/*
 flang/*
-*.F*
+*.o
 build/*
 flang.tgz
 .DS_Store
