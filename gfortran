@@ -25,19 +25,26 @@ if "-h" in sys_args or "--help" in sys_args:
     print("Because flang runs in a Docker container, only files under '/Users/', '/var/folders' or '/Library' can be compiled.")
     sys.exit(0)
 
-if not "-c" in sys_args or not "-arch arm64" in " ".join(sys.argv):
+all_args_are_object_files = True
+
+for arg in sys_args:
+
+    if os.path.isfile(arg) and not arg.endswith(".o"):
+        print("Is not object file:", arg, file=sys.stderr)
+        all_args_are_object_files = False
+
+if (not "-c" and not all_args_are_object_files) in sys_args or not "-arch arm64" in " ".join(sys.argv):
     print("The executed Fortran compiler only supports producing object files for iOS arm64, falling back to gfortran.")
     print("To compile sources for iOS arm64, make sure to add -arch arm64 and -c.")
-    sys.exit(os.system(join_args(["/usr/local/bin/gfortran"]+sys_args)))
+    sys.exit(os.system(shlex.join(["/usr/local/bin/gfortran"]+sys_args)))
 
-if "-bundle" in sys_args:
-    args = ["clang"]
+if "-bundle" in sys_args or all_args_are_object_files:
+    args = ["clang", "-undefined", "dynamic_lookup", "-shared"]
     for arg in sys_args:
-        if arg == "-bundle":
-            arg = "-shared"
-        args.append(arg)
+        if arg != "-bundle":
+            args.append(arg)
     
-    command = join_args(args)
+    command = shlex.join(args)
     sys.exit(os.system(command))
 
 def convert_to_docker_path(arg):
