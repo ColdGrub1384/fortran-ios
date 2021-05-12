@@ -8,7 +8,7 @@ CONTAINER="naturlich/x86_64-ubuntu"
 docker ps --format '{{.Names}}' | grep "flang" &> /dev/null
 
 if [ $? != 0 ]; then
-    docker run -d --name "$NAME" -v "$DIR/../share:/root/host" -v /Users:/Users -v /var/folders:/var/folders -v /Library:/Library -it $CONTAINER &> /dev/null
+    docker run -d --name "$NAME" -v "$DIR/../share:/root/host" -v /Users:/Users -v /var/folders:/var/folders -it $CONTAINER &> /dev/null
 fi
 
 docker exec -it flang /root/host/setup-container.sh $PWD $@
