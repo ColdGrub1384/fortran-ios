@@ -4306,10 +4306,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../Pyto/Extensions/OpenBlas\"",
-					"$(PROJECT_DIR)/ios_flang_runtime",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_flang_runtime";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_LINUX_ARM64=1";
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
@@ -4419,10 +4416,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../Pyto/Extensions/OpenBlas\"",
-					"$(PROJECT_DIR)/ios_flang_runtime",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_flang_runtime";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"TARGET_LINUX_ARM64=1",
 					Debug,

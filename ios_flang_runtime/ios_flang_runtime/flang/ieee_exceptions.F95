@@ -4,11 +4,7 @@
 ! SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 ! 
 
-#ifndef DESC_I8
 #define IEEE_EXCEPTIONS ieee_exceptions
-#else
-#define IEEE_EXCEPTIONS ieee_exceptions_la
-#endif
 
 module IEEE_EXCEPTIONS
 #ifdef PGDLL

@@ -4,11 +4,7 @@
 ! SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 ! 
 
-#ifndef DESC_I8
 #define IEEE_ARITHMETIC ieee_arithmetic
-#else
-#define IEEE_ARITHMETIC ieee_arithmetic_la
-#endif
 
 module IEEE_ARITHMETIC
 
