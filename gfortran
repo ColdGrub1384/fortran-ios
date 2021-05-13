@@ -20,6 +20,12 @@ arguments = []
 sys_args = sys.argv
 del sys_args[0]
 
+try:
+    for arg in os.environ["ARCHFLAGS"].split(" "):
+        sys_args.append(arg)
+except KeyError:
+    pass
+
 if "-h" in sys_args or "--help" in sys_args:
     print("The running executable emulates a Fortran compiler. If '-arch arm64' is passed, the compiler will produce an arm64 object file for iOS from the passed source. If not, gfortran located in '/usr/local/bin/' will be executed.")
     print("Because flang runs in a Docker container, only files under '/Users/', '/var/folders' or '/Library' can be compiled.")
@@ -32,13 +38,18 @@ for arg in sys_args:
     if os.path.isfile(arg) and not arg.endswith(".o"):
         all_args_are_object_files = False
 
-if (not "-c" and not all_args_are_object_files) in sys_args or not "-arch arm64" in " ".join(sys.argv):
-    print("The executed Fortran compiler only supports producing object files for iOS arm64, falling back to gfortran.")
-    print("To compile sources for iOS arm64, make sure to add -arch arm64 and -c.")
+if (not "-c" and not all_args_are_object_files) in sys_args or not "-arch arm64" in " ".join(sys_args):
+    print("The executed Fortran compiler only supports producing object files for iOS arm64, falling back to gfortran.", file=sys.stderr)
+    print("To compile sources for iOS arm64, make sure to add -arch arm64 and -c.", file=sys.stderr)
     sys.exit(os.system(shlex.join(["/usr/local/bin/gfortran"]+sys_args)))
 
 if "-bundle" in sys_args or all_args_are_object_files:
     args = ["clang", "-undefined", "dynamic_lookup", "-shared"]
+    try:
+        for arg in os.environ["LDFLAGS"].split(" "):
+            args.append(arg)
+    except KeyError:
+        pass
     for arg in sys_args:
         if arg != "-bundle":
             args.append(arg)
