@@ -3,7 +3,12 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 NAME="flang"
+
+if [ $(uname -m) == "x86_64" ]; then
+CONTAINER="ubuntu"
+else
 CONTAINER="naturlich/x86_64-ubuntu"
+fi
 
 docker ps --format '{{.Names}}' | grep "flang" &> /dev/null
 
