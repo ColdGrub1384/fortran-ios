@@ -2,7 +2,7 @@ llc
 deb/*
 flang/*
 *.o
-build/*
+**/build/*
 flang.tgz
 .DS_Store
 ios_flang_runtime/ios_flang_runtime.xcodeproj/project.xcworkspace/xcuserdata/*

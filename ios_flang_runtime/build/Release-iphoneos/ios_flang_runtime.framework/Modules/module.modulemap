@@ -1,6 +1,0 @@
-framework module ios_flang_runtime {
-  umbrella header "ios_flang_runtime.h"
-
-  export *
-  module * { export * }
-}
