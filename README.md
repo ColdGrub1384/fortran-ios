@@ -1,6 +1,8 @@
 # fortran-ios
 A script that acts like a Fortran compiler that uses Flang to build sources for iOS arm64.
 
+LLVM flang supports Apple platforms now so you should use that instead. You can install it with `brew install flang`. This project is no longer mantained.
+
 ## Installation
 
 Install [Docker](https://docs.docker.com/docker-for-mac/install/) and open it to run the daemon.
